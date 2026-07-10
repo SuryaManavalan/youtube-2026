@@ -1,0 +1,25 @@
+# --- Rendered outputs (large; rebuild from tracked _fg/_bg via render_parallax.py) ---
+# To version these, use Git LFS instead of un-ignoring them.
+*_parallax.mp4
+*.mp4
+
+# --- QA / scratch artifacts ---
+*_keypreview.png
+
+# --- Windows "mark of the web" alternate-data-stream sidecars ---
+*:Zone.Identifier
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# --- Editor ---
+.idea/
+*.swp
