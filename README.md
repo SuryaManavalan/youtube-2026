@@ -34,9 +34,11 @@ Scenes with multiple `[WOJAK]` images use `a/b/c` suffixes (`3a`, `3b`, `3c`).
 
 A reusable Claude Code skill lives in
 [`.claude/skills/parallax-scene/`](.claude/skills/parallax-scene/). It documents the
-five-phase workflow (scene breakdown → split prompts → ingest/rename → chroma-key →
-render) and ships the scripts:
+workflow (scaffold → scene breakdown → split prompts → ingest/rename → chroma-key →
+render), the channel's content voice, and the shared art direction. It ships the scripts:
 
+- `scripts/new_video.sh` — scaffold a new video folder (planning + script + `scenes/`
+  with the canonical style reference), e.g. `new_video.sh "Title" "THUMB TEXT" "YT Title"`.
 - `scripts/detect_plates.py` — auto-classify a scene's two pasted plates (magenta =
   foreground) and rename them.
 - `scripts/keychroma.py` — key the flat magenta plate to transparency (soft alpha +

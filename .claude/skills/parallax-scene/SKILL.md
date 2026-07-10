@@ -2,19 +2,41 @@
 name: parallax-scene
 description: >-
   Produce the wojak/pepe video-essay scenes and their 2.5D parallax motion clips
-  for the youtube-2026 projects. Use when writing scene outlines in the Cybernetics
-  scene format, generating foreground/background split prompts for image gen,
-  chroma-keying magenta plates to transparency, or rendering subtle parallax
-  video from a foreground+background pair. Triggers: "parallax", "scene image",
-  "foreground/background", "wojak scene", "make the clip move", "key the magenta".
+  for the youtube-2026 projects — from scaffolding a brand-new video to rendering
+  the final clips. Use when starting a new video, writing scene outlines in the
+  Cybernetics scene format, generating foreground/background split prompts for image
+  gen, chroma-keying magenta plates to transparency, or rendering subtle parallax
+  video from a foreground+background pair. Triggers: "new video", "start a video",
+  "parallax", "scene image", "foreground/background", "wojak scene", "make the clip
+  move", "key the magenta".
 ---
 
 # Parallax Scene Production
 
-The end-to-end pipeline for turning a video's brain-dump into illustrated,
-motion-parallax scenes. Built for the `youtube-2026` video essays (Cybernetics,
-AI Agent Meta-Computation, …). Every video lives in its own top-level folder with
-`planning.md`, `script.md`, and a `scenes/` directory.
+The end-to-end pipeline for the channel's illustrated video essays — from a new idea to
+finished motion-parallax scenes. Built for the `youtube-2026` repo (Cybernetics, AI Agent
+Meta-Computation, …). Every video lives in its own top-level folder with `planning.md`,
+`script.md`, and a `scenes/` directory.
+
+## The channel (voice & content)
+
+These essays take a **familiar-ish modern topic** — internet culture, philosophy, computer
+science, or a general interesting idea — and **reinterpret it through the creator's own
+esoteric-but-grounded framework**. The register is **slightly humorous, genuinely
+thought-provoking, esoteric yet modern and relevant**. Hold this voice when writing scripts
+and scenes:
+
+- **A novel lens, stated as a lens.** Reframe something the audience half-knows into one
+  clear thesis, and openly flag it as a personal interpretation, not institutional fact.
+- **Escalating zoom-out arc.** Each beat is more abstract / larger-scale than the last
+  (concrete → cosmic). Open on a provocative, thumbnail-worthy hook; close on a quotable
+  button that ties back to it.
+- **Earn the wild claims.** Front-load the framing that gives you the right to the strange
+  ideas later; then go as far-out as the idea allows.
+- **Humor is dry and embedded**, never a caption-level punchline — in the phrasing and in
+  the background gags of the art (see `STYLE_REFERENCE.md`).
+- **Grounded esoterica.** Bridge to real history/philosophy/CS; keep one foot in the
+  concrete so the metaphysics lands as insight, not vibes.
 
 ## Naming conventions (do not deviate)
 
@@ -33,7 +55,18 @@ Each scene gets a folder inside `scenes/`, named `N. TITLE (hint)` (sub-scenes
 `<id>` matches the scene number, with `a/b/c` suffixes when a scene has multiple
 `[WOJAK]` images (e.g. `3a`, `3b`, `3c`). The scene's `.md` also lives in the folder.
 
-## The five phases
+## The phases
+
+### 0. Scaffold a new video — `scripts/new_video.sh`
+Spin up a new video folder matching the channel layout (planning + script + a `scenes/`
+with the canonical `STYLE_REFERENCE.md` and an empty `PARALLAX_PROMPTS.md`):
+```
+scripts/new_video.sh "Video Title" "THUMBNAIL TEXT" "Youtube Title"
+```
+Then fill `planning.md` (intent + brain-dump), holding the **voice** above, and proceed to
+phase 1. Templates live in `assets/` (`planning_template.md`, `style_reference_template.md`,
+`parallax_prompts_template.md`) — edit those to evolve the house defaults for all future
+videos.
 
 ### 1. Scene breakdown (`scenes/<N>. …/<N>. ….md` + `STYLE_REFERENCE.md`)
 Break the video's `planning.md` brain-dump into an escalating scene arc. Each scene
