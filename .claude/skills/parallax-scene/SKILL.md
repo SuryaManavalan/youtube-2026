@@ -151,6 +151,15 @@ scripts/process_scene.sh "scenes/3. THE FUNCTION → THE FLUID" 3b 30 --loop
 takes ~1–2 min; long renders self-background — wait on the output file, don't poll.
 
 ## Gotchas
+- **Shared scene folders + `detect_plates`:** multi-image scenes (`3a/3b/3c`, `6a/6b`)
+  share one folder, so a sibling's outputs (`_fgsrc`, `_keypreview`, …) sit alongside the
+  next sub-scene's raw plates. `detect_plates.py` excludes every pipeline suffix
+  (`_full/_fgsrc/_fg/_bg/_keypreview/_parallax`) so only the two raw pastes remain — but if
+  it still reports "expected exactly 2", the extras are usually a sibling's artifacts or a
+  second unclassified paste; classify by hand or move the strays out.
+- **Re-running a sub-scene:** once `detect_plates` has renamed the plates, running
+  `process_scene.sh` again finds 0 unclassified plates and errors. Re-key/re-render by
+  calling `keychroma.py` + `render_parallax.py` directly on the existing `_fgsrc`/`_bg`.
 - **Pan + zoom-out reversal (fixed in-script):** zooming out shrinks the pan headroom,
   so a pan target that's valid at the zoomed-in start can overshoot at the zoomed-out
   end; the per-frame clamp then drags the center back, reversing motion in the last few

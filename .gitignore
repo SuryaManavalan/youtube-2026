@@ -3,6 +3,19 @@
 *_parallax.mp4
 *.mp4
 
+# --- Video-editor render/cache output (huge; never version) ---
+*.mov
+*.mkv
+Renders/
+*.prproj
+*.drp
+
+# --- External audio assets (stock/licensed; re-downloadable, not source) ---
+*.mp3
+*.wav
+*.aac
+*.flac
+
 # --- QA / scratch artifacts ---
 *_keypreview.png
 

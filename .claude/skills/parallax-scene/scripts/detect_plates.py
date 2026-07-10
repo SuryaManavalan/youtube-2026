@@ -37,9 +37,11 @@ def main():
     for z in glob.glob(os.path.join(args.dir, "*:Zone.Identifier")):
         os.remove(z)
 
+    # exclude every file our pipeline produces, so leftover artifacts from a sibling
+    # sub-scene in a SHARED folder (e.g. 6a's outputs while classifying 6b) don't count
+    done = ("_full", "_fgsrc", "_fg", "_bg", "_keypreview", "_parallax")
     cands = [p for p in sorted(glob.glob(os.path.join(args.dir, "*.png")))
-             if not os.path.basename(p).lower().rsplit(".", 1)[0]
-             .endswith(("_full", "_fg", "_bg"))]
+             if not os.path.basename(p).lower().rsplit(".", 1)[0].endswith(done)]
     if len(cands) != 2:
         raise SystemExit(f"expected exactly 2 unclassified PNGs, found {len(cands)}: "
                          + ", ".join(os.path.basename(c) for c in cands))
