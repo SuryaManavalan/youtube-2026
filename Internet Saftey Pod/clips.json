@@ -1,0 +1,83 @@
+{
+  "clips": [
+    {
+      "slug": "01_confession",
+      "title": "It sounds like a confession",
+      "segments": [
+        {"start": "0:20:33", "end": "0:20:43", "speaker": "speaker_0", "shot": "solo"},
+        {"start": "0:20:44", "end": "0:20:57", "speaker": "speaker_0", "shot": "solo"},
+        {"start": "0:21:09", "end": "0:21:23", "speaker": "speaker_0", "shot": "solo"},
+        {"start": "0:21:25", "end": "0:21:28.5", "speaker": "speaker_1", "shot": "stacked"},
+        {"start": "0:21:42", "end": "0:22:01", "speaker": "speaker_0", "shot": "solo"}
+      ]
+    },
+    {
+      "slug": "02_homeschooled",
+      "title": "Homeschooled on the global stage",
+      "segments": [
+        {"start": "0:22:38.5", "end": "0:23:05", "speaker": "speaker_0", "shot": "solo"},
+        {"start": "0:23:05", "end": "0:23:10", "speaker": "speaker_1", "shot": "stacked"},
+        {"start": "0:24:12", "end": "0:24:31", "speaker": "speaker_0", "shot": "solo"}
+      ]
+    },
+    {
+      "slug": "03_beta",
+      "title": "Humanity 0.01 beta",
+      "segments": [
+        {"start": "0:32:02", "end": "0:32:26", "speaker": "speaker_0", "shot": "solo"},
+        {"start": "0:32:29", "end": "0:32:37", "speaker": "speaker_0", "shot": "stacked"},
+        {"start": "0:33:22", "end": "0:33:45", "speaker": "speaker_1", "shot": "solo"}
+      ]
+    },
+    {
+      "slug": "04_casino",
+      "title": "A casino for kids",
+      "segments": [
+        {"start": "0:35:48", "end": "0:36:03", "speaker": "speaker_0", "shot": "solo"},
+        {"start": "0:40:00", "end": "0:40:13", "speaker": "speaker_0", "shot": "solo"},
+        {"start": "0:40:13", "end": "0:40:16", "speaker": "speaker_1", "shot": "stacked"},
+        {"start": "0:40:17", "end": "0:40:37", "speaker": "speaker_0", "shot": "solo"}
+      ]
+    },
+    {
+      "slug": "05_fluids",
+      "title": "Slinging emotional fluids",
+      "segments": [
+        {"start": "0:49:25", "end": "0:49:39", "speaker": "speaker_0", "shot": "solo"},
+        {"start": "0:49:54", "end": "0:50:14", "speaker": "speaker_0", "shot": "solo"},
+        {"start": "0:51:03", "end": "0:51:14", "speaker": "speaker_0", "shot": "stacked"},
+        {"start": "0:51:16", "end": "0:51:20", "speaker": "speaker_1", "shot": "stacked"}
+      ]
+    },
+    {
+      "slug": "06_bidet",
+      "title": "The bidet theory of AI privacy",
+      "segments": [
+        {"start": "1:01:27", "end": "1:01:34", "speaker": "speaker_1", "shot": "solo"},
+        {"start": "1:02:07", "end": "1:02:23", "speaker": "speaker_0", "shot": "solo"},
+        {"start": "1:02:24", "end": "1:02:40", "speaker": "speaker_0", "shot": "solo"},
+        {"start": "1:02:51", "end": "1:02:54", "speaker": "speaker_0", "shot": "stacked"},
+        {"start": "1:02:54", "end": "1:03:04", "speaker": "speaker_1", "shot": "stacked"}
+      ]
+    },
+    {
+      "slug": "07_stalking",
+      "title": "Stalking 2.0",
+      "segments": [
+        {"start": "1:13:24", "end": "1:13:34", "speaker": "speaker_0", "shot": "solo"},
+        {"start": "1:14:10", "end": "1:14:47", "speaker": "speaker_0", "shot": "solo"},
+        {"start": "1:14:48", "end": "1:15:00", "speaker": "speaker_1", "shot": "solo"}
+      ]
+    },
+    {
+      "slug": "08_meta",
+      "title": "My AI is editing this right now",
+      "segments": [
+        {"start": "1:20:17", "end": "1:20:26", "speaker": "speaker_0", "shot": "solo"},
+        {"start": "1:20:53", "end": "1:21:01.5", "speaker": "any", "shot": "stacked"},
+        {"start": "1:21:02.5", "end": "1:21:14", "speaker": "speaker_1", "shot": "solo"},
+        {"start": "1:21:14", "end": "1:21:18.5", "speaker": "any", "shot": "stacked"}
+      ]
+    }
+  ]
+}

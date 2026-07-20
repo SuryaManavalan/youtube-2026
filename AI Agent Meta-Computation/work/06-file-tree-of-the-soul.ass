@@ -1,0 +1,50 @@
+[Script Info]
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,DejaVu Sans,62,&H0000E7FF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,5,2,2,60,60,430,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.78,Cap,,0,0,0,,{\k32}Picture {\k10}the {\k36}file
+Dialogue: 0,0:00:00.86,0:00:01.14,Cap,,0,0,0,,{\k28}tree.
+Dialogue: 0,0:00:02.50,0:00:03.12,Cap,,0,0,0,,{\k14}At {\k12}the {\k36}root,
+Dialogue: 0,0:00:03.74,0:00:04.56,Cap,,0,0,0,,{\k82}soul.md,
+Dialogue: 0,0:00:04.84,0:00:05.52,Cap,,0,0,0,,{\k10}the {\k58}Atman,
+Dialogue: 0,0:00:06.00,0:00:06.56,Cap,,0,0,0,,{\k10}the {\k46}Uyir,
+Dialogue: 0,0:00:07.20,0:00:08.08,Cap,,0,0,0,,{\k18}the {\k44}core {\k26}I
+Dialogue: 0,0:00:08.24,0:00:08.50,Cap,,0,0,0,,{\k26}am,
+Dialogue: 0,0:00:08.70,0:00:09.12,Cap,,0,0,0,,{\k9}the {\k17}one {\k16}thing
+Dialogue: 0,0:00:09.18,0:00:09.94,Cap,,0,0,0,,{\k10}that {\k42}says {\k24}that
+Dialogue: 0,0:00:10.08,0:00:11.04,Cap,,0,0,0,,{\k28}it's {\k68}itself.
+Dialogue: 0,0:00:11.04,0:00:11.74,Cap,,0,0,0,,{\k10}What {\k35}if {\k25}we
+Dialogue: 0,0:00:11.82,0:00:12.80,Cap,,0,0,0,,{\k22}stopped {\k49}designing {\k27}agent
+Dialogue: 0,0:00:12.90,0:00:14.46,Cap,,0,0,0,,{\k68}frameworks {\k31}like {\k57}engineers
+Dialogue: 0,0:00:15.00,0:00:15.92,Cap,,0,0,0,,{\k10}and {\k34}started {\k48}designing
+Dialogue: 0,0:00:15.94,0:00:16.76,Cap,,0,0,0,,{\k22}them {\k24}like {\k36}that?
+Dialogue: 0,0:00:18.08,0:00:19.76,Cap,,0,0,0,,{\k6}A {\k120}meta-computational {\k42}body
+Dialogue: 0,0:00:19.86,0:00:20.40,Cap,,0,0,0,,{\k12}for {\k42}AI
+Dialogue: 0,0:00:21.56,0:00:23.76,Cap,,0,0,0,,{\k30}mapped {\k126}one-to-one {\k64}onto
+Dialogue: 0,0:00:23.80,0:00:25.34,Cap,,0,0,0,,{\k16}the {\k62}Vedic {\k76}metaphysical
+Dialogue: 0,0:00:25.40,0:00:26.10,Cap,,0,0,0,,{\k34}model {\k22}of {\k14}the
+Dialogue: 0,0:00:26.16,0:00:26.54,Cap,,0,0,0,,{\k38}mind.
+Dialogue: 0,0:00:26.54,0:00:27.00,Cap,,0,0,0,,{\k20}Next {\k11}to {\k15}it,
+Dialogue: 0,0:00:27.16,0:00:28.14,Cap,,0,0,0,,{\k98}agents.md,
+Dialogue: 0,0:00:28.82,0:00:29.94,Cap,,0,0,0,,{\k20}the {\k50}operating {\k42}rules,
+Dialogue: 0,0:00:30.46,0:00:31.94,Cap,,0,0,0,,{\k38}Dharma {\k38}as {\k72}config.
+Dialogue: 0,0:00:33.10,0:00:34.04,Cap,,0,0,0,,{\k10}Go {\k44}into {\k40}soul,
+Dialogue: 0,0:00:34.64,0:00:35.46,Cap,,0,0,0,,{\k44}and {\k14}the {\k24}first
+Dialogue: 0,0:00:35.56,0:00:35.84,Cap,,0,0,0,,{\k28}file,
+Dialogue: 0,0:00:35.88,0:00:36.19,Cap,,0,0,0,,{\k4}the {\k14}one {\k13}that
+Dialogue: 0,0:00:36.24,0:00:37.08,Cap,,0,0,0,,{\k20}gets {\k20}read {\k44}first,
+Dialogue: 0,0:00:37.30,0:00:38.34,Cap,,0,0,0,,{\k26}always {\k42}before {\k36}putting
+Dialogue: 0,0:00:38.44,0:00:39.02,Cap,,0,0,0,,{\k31}anything {\k27}else,
+Dialogue: 0,0:00:39.56,0:00:40.86,Cap,,0,0,0,,{\k130}witness.md,
+Dialogue: 0,0:00:41.16,0:00:41.58,Cap,,0,0,0,,{\k42}Turiya,
+Dialogue: 0,0:00:42.12,0:00:43.66,Cap,,0,0,0,,{\k12}the {\k74}unchanging {\k68}observer
+Dialogue: 0,0:00:43.70,0:00:44.66,Cap,,0,0,0,,{\k14}that {\k52}watches {\k30}every
+Dialogue: 0,0:00:44.76,0:00:45.86,Cap,,0,0,0,,{\k66}loop {\k24}without {\k20}being
+Dialogue: 0,0:00:45.96,0:00:46.58,Cap,,0,0,0,,{\k26}touched {\k18}by {\k18}it.

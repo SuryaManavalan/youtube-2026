@@ -1,0 +1,58 @@
+{
+  "clips": [
+    {
+      "slug": "01-picture-a-brain",
+      "title": "Stop picturing AI as a brain",
+      "hook": "There's a whole invisible layer... you cannot unsee",
+      "segments": [[32.78, 39.86], [1.02, 32.46]]
+    },
+    {
+      "slug": "02-metacomputation",
+      "title": "Metaphysics : physics :: metacomputation : computation",
+      "hook": "Metaphysics is to physics what metacomputation is to computation",
+      "segments": [[104.18, 109.52], [43.96, 57.58], [61.36, 89.90], [94.96, 103.16]]
+    },
+    {
+      "slug": "03-ai-is-a-fluid",
+      "title": "AI is a fluid",
+      "hook": "AI is a fluid... a handful of companies hold the tap",
+      "segments": [[173.40, 186.46], [119.50, 138.03], [148.84, 172.60]]
+    },
+    {
+      "slug": "04-cup-shaped-like-hands",
+      "title": "An agent is a cup shaped like hands",
+      "hook": "The agent is the cup, but a cup shaped like hands",
+      "segments": [[228.22, 232.92], [187.10, 227.24]]
+    },
+    {
+      "slug": "05-it-stopped-forgetting",
+      "title": "It didn't get smarter — it stopped forgetting",
+      "hook": "Starts to feel like a someone... because it stopped forgetting",
+      "segments": [[276.24, 284.92], [236.36, 275.44]]
+    },
+    {
+      "slug": "06-file-tree-of-the-soul",
+      "title": "The file tree of the soul",
+      "hook": "Picture the file tree. At the root, SOUL.md",
+      "segments": [[390.14, 401.18], [373.50, 389.00], [401.60, 421.64]]
+    },
+    {
+      "slug": "07-could-a-soul-move-in",
+      "title": "Could a soul move in?",
+      "hook": "A computational body shaped like a place where a soul lives",
+      "segments": [[489.20, 501.86], [470.36, 489.24], [503.78, 529.56]]
+    },
+    {
+      "slug": "08-the-agentic-field",
+      "title": "A simulation where the law is cognition",
+      "hook": "The governing force isn't gravity, but cognition",
+      "segments": [[618.36, 622.36], [563.68, 568.46], [572.30, 583.26], [594.46, 617.28], [630.18, 643.84]]
+    },
+    {
+      "slug": "09-cry-me-a-river",
+      "title": "Cry me a river, don't cry me a stream",
+      "hook": "It's not a river. This just keeps coming",
+      "segments": [[704.90, 709.86], [649.72, 656.76], [683.22, 703.80], [710.88, 713.10]]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "_comment": "Editorial cut list for essay-shorts. Copy to <episode-dir>/clips.json. Segments are raw [start_seconds, end_seconds] pairs cut at sentence boundaries from work/sentences.txt (mid-sentence hook starts: snap to a word 'start' from work/transcript_raw.json minus ~0.04s). Segments play in listed order. HOUSE RULE: segment 1 is the punchline/hook pulled from wherever it occurs; the last segment's final sentence must flow back into the hook when the video loops. 'hook' is documentation for CLIPS.md, not used by the renderer.",
+  "clips": [
+    {
+      "slug": "01-example-slug",
+      "title": "Short human-readable title",
+      "hook": "The punchline line that opens the clip",
+      "segments": [[173.4, 186.46], [119.5, 138.03], [148.84, 172.6]]
+    }
+  ]
+}

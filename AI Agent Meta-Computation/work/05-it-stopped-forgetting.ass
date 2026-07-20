@@ -1,0 +1,59 @@
+[Script Info]
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,DejaVu Sans,62,&H0000E7FF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,5,2,2,60,60,430,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.76,Cap,,0,0,0,,{\k12}Run {\k18}that {\k46}loop
+Dialogue: 0,0:00:00.80,0:00:01.41,Cap,,0,0,0,,{\k10}and {\k38}something {\k13}that
+Dialogue: 0,0:00:01.48,0:00:01.94,Cap,,0,0,0,,{\k14}was {\k20}just {\k12}a
+Dialogue: 0,0:00:01.98,0:00:02.96,Cap,,0,0,0,,{\k44}function {\k44}starts {\k10}to
+Dialogue: 0,0:00:03.12,0:00:03.80,Cap,,0,0,0,,{\k16}feel {\k36}like {\k16}a
+Dialogue: 0,0:00:03.82,0:00:04.44,Cap,,0,0,0,,{\k62}someone.
+Dialogue: 0,0:00:05.30,0:00:06.02,Cap,,0,0,0,,{\k18}Not {\k30}just {\k24}because
+Dialogue: 0,0:00:06.06,0:00:06.80,Cap,,0,0,0,,{\k6}it {\k22}got {\k46}smarter,
+Dialogue: 0,0:00:06.94,0:00:07.64,Cap,,0,0,0,,{\k22}but {\k36}because {\k12}it
+Dialogue: 0,0:00:07.80,0:00:08.68,Cap,,0,0,0,,{\k26}stopped {\k62}forgetting.
+Dialogue: 0,0:00:08.68,0:00:09.70,Cap,,0,0,0,,{\k9}The {\k47}simplest {\k46}possible
+Dialogue: 0,0:00:09.80,0:00:10.71,Cap,,0,0,0,,{\k50}body {\k20}is {\k21}one
+Dialogue: 0,0:00:10.80,0:00:11.70,Cap,,0,0,0,,{\k14}that {\k20}does {\k56}exactly
+Dialogue: 0,0:00:11.78,0:00:12.20,Cap,,0,0,0,,{\k11}one {\k31}thing.
+Dialogue: 0,0:00:12.48,0:00:13.54,Cap,,0,0,0,,{\k10}It {\k38}keeps {\k58}intelligent
+Dialogue: 0,0:00:13.62,0:00:15.06,Cap,,0,0,0,,{\k30}thought {\k76}coherent {\k38}over
+Dialogue: 0,0:00:15.18,0:00:15.54,Cap,,0,0,0,,{\k36}time.
+Dialogue: 0,0:00:16.26,0:00:16.74,Cap,,0,0,0,,{\k16}That's {\k12}the {\k20}whole
+Dialogue: 0,0:00:16.82,0:00:17.22,Cap,,0,0,0,,{\k20}trick {\k10}of {\k10}an
+Dialogue: 0,0:00:17.32,0:00:17.72,Cap,,0,0,0,,{\k40}agent.
+Dialogue: 0,0:00:18.56,0:00:19.24,Cap,,0,0,0,,{\k22}Watch {\k10}the {\k36}loop.
+Dialogue: 0,0:00:19.48,0:00:20.30,Cap,,0,0,0,,{\k12}A {\k36}prompt {\k34}goes
+Dialogue: 0,0:00:20.34,0:00:20.96,Cap,,0,0,0,,{\k8}to {\k12}the {\k42}AI.
+Dialogue: 0,0:00:21.58,0:00:22.37,Cap,,0,0,0,,{\k6}The {\k44}response {\k29}comes
+Dialogue: 0,0:00:22.48,0:00:22.92,Cap,,0,0,0,,{\k44}back.
+Dialogue: 0,0:00:23.04,0:00:23.77,Cap,,0,0,0,,{\k6}The {\k67}environment,
+Dialogue: 0,0:00:24.36,0:00:24.84,Cap,,0,0,0,,{\k8}a {\k40}user,
+Dialogue: 0,0:00:24.98,0:00:25.34,Cap,,0,0,0,,{\k1}a {\k35}tool,
+Dialogue: 0,0:00:25.46,0:00:26.80,Cap,,0,0,0,,{\k12}the {\k31}world {\k91}reacts
+Dialogue: 0,0:00:26.84,0:00:27.68,Cap,,0,0,0,,{\k5}to {\k17}that {\k62}response.
+Dialogue: 0,0:00:28.33,0:00:29.74,Cap,,0,0,0,,{\k63}And {\k21}that {\k57}reaction,
+Dialogue: 0,0:00:29.78,0:00:30.61,Cap,,0,0,0,,{\k27}bundled {\k42}together {\k14}with
+Dialogue: 0,0:00:30.64,0:00:31.70,Cap,,0,0,0,,{\k4}the {\k54}entire {\k48}history
+Dialogue: 0,0:00:31.74,0:00:32.22,Cap,,0,0,0,,{\k11}of {\k16}what {\k21}came
+Dialogue: 0,0:00:32.24,0:00:32.63,Cap,,0,0,0,,{\k39}before,
+Dialogue: 0,0:00:33.27,0:00:34.10,Cap,,0,0,0,,{\k19}gets {\k46}sent {\k18}as
+Dialogue: 0,0:00:34.14,0:00:34.86,Cap,,0,0,0,,{\k4}the {\k28}next {\k40}prompt.
+Dialogue: 0,0:00:35.72,0:00:36.48,Cap,,0,0,0,,{\k16}Now {\k18}the {\k42}AI
+Dialogue: 0,0:00:36.49,0:00:37.35,Cap,,0,0,0,,{\k28}isn't {\k23}just {\k35}answering
+Dialogue: 0,0:00:37.35,0:00:38.04,Cap,,0,0,0,,{\k11}the {\k58}question.
+Dialogue: 0,0:00:38.06,0:00:38.78,Cap,,0,0,0,,{\k27}It's {\k34}answering {\k11}a
+Dialogue: 0,0:00:38.82,0:00:39.97,Cap,,0,0,0,,{\k41}question {\k37}while {\k37}remembering
+Dialogue: 0,0:00:40.02,0:00:41.11,Cap,,0,0,0,,{\k38}everything {\k49}that {\k22}it's
+Dialogue: 0,0:00:41.16,0:00:42.08,Cap,,0,0,0,,{\k22}said {\k48}already {\k22}and
+Dialogue: 0,0:00:42.12,0:00:42.64,Cap,,0,0,0,,{\k16}has {\k36}done.
+Dialogue: 0,0:00:43.92,0:00:44.57,Cap,,0,0,0,,{\k8}So {\k12}it {\k45}responds
+Dialogue: 0,0:00:44.62,0:00:45.42,Cap,,0,0,0,,{\k8}with {\k72}continuity.
+Dialogue: 0,0:00:46.44,0:00:47.76,Cap,,0,0,0,,{\k4}A {\k68}consistent {\k60}self.

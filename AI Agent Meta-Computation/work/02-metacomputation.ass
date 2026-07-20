@@ -1,0 +1,58 @@
+[Script Info]
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,DejaVu Sans,62,&H0000E7FF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,5,2,2,60,60,430,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.50,Cap,,0,0,0,,{\k70}Metaphysics {\k60}is {\k20}to
+Dialogue: 0,0:00:01.54,0:00:04.04,Cap,,0,0,0,,{\k48}physics {\k50}what {\k152}metacomputation
+Dialogue: 0,0:00:04.14,0:00:05.34,Cap,,0,0,0,,{\k22}is {\k20}to {\k78}computation.
+Dialogue: 0,0:00:05.34,0:00:05.93,Cap,,0,0,0,,{\k10}For {\k38}thousands {\k11}of
+Dialogue: 0,0:00:06.02,0:00:06.36,Cap,,0,0,0,,{\k34}years,
+Dialogue: 0,0:00:06.54,0:00:07.35,Cap,,0,0,0,,{\k32}humans {\k14}have {\k35}studied
+Dialogue: 0,0:00:07.42,0:00:08.48,Cap,,0,0,0,,{\k60}reality {\k19}at {\k27}two
+Dialogue: 0,0:00:08.56,0:00:09.18,Cap,,0,0,0,,{\k62}altitudes.
+Dialogue: 0,0:00:10.06,0:00:10.82,Cap,,0,0,0,,{\k24}There's {\k52}physics,
+Dialogue: 0,0:00:11.18,0:00:12.26,Cap,,0,0,0,,{\k8}the {\k48}study {\k52}of
+Dialogue: 0,0:00:12.32,0:00:13.16,Cap,,0,0,0,,{\k6}the {\k78}grossest,
+Dialogue: 0,0:00:13.56,0:00:14.12,Cap,,0,0,0,,{\k56}densest,
+Dialogue: 0,0:00:14.60,0:00:16.22,Cap,,0,0,0,,{\k34}least {\k80}abstract {\k48}stuff,
+Dialogue: 0,0:00:17.04,0:00:17.42,Cap,,0,0,0,,{\k38}rocks,
+Dialogue: 0,0:00:17.72,0:00:18.17,Cap,,0,0,0,,{\k45}forces,
+Dialogue: 0,0:00:18.30,0:00:18.96,Cap,,0,0,0,,{\k66}particles.
+Dialogue: 0,0:00:18.96,0:00:19.65,Cap,,0,0,0,,{\k8}And {\k14}then {\k47}there's
+Dialogue: 0,0:00:19.72,0:00:20.40,Cap,,0,0,0,,{\k68}metaphysics,
+Dialogue: 0,0:00:20.66,0:00:21.38,Cap,,0,0,0,,{\k10}the {\k44}study {\k18}of
+Dialogue: 0,0:00:21.42,0:00:22.74,Cap,,0,0,0,,{\k14}the {\k40}subtle {\k78}systems
+Dialogue: 0,0:00:22.78,0:00:24.63,Cap,,0,0,0,,{\k132}abstracted {\k40}out {\k13}of
+Dialogue: 0,0:00:24.66,0:00:26.48,Cap,,0,0,0,,{\k15}that {\k45}physical {\k122}reality.
+Dialogue: 0,0:00:26.50,0:00:26.94,Cap,,0,0,0,,{\k44}Mind,
+Dialogue: 0,0:00:27.11,0:00:27.56,Cap,,0,0,0,,{\k45}spirit,
+Dialogue: 0,0:00:27.68,0:00:28.85,Cap,,0,0,0,,{\k10}the {\k72}patterns {\k35}that
+Dialogue: 0,0:00:28.88,0:00:29.86,Cap,,0,0,0,,{\k38}ride {\k20}on {\k40}top
+Dialogue: 0,0:00:29.90,0:00:30.46,Cap,,0,0,0,,{\k10}of {\k12}the {\k34}matter.
+Dialogue: 0,0:00:32.08,0:00:32.94,Cap,,0,0,0,,{\k50}Now {\k20}look {\k16}at
+Dialogue: 0,0:00:33.02,0:00:34.23,Cap,,0,0,0,,{\k32}AI {\k62}and {\k27}let's
+Dialogue: 0,0:00:34.34,0:00:36.82,Cap,,0,0,0,,{\k40}swap {\k18}the {\k190}foundation.
+Dialogue: 0,0:00:36.86,0:00:38.22,Cap,,0,0,0,,{\k46}Everything {\k62}underneath {\k28}is
+Dialogue: 0,0:00:38.26,0:00:39.07,Cap,,0,0,0,,{\k81}computation,
+Dialogue: 0,0:00:39.83,0:00:40.62,Cap,,0,0,0,,{\k13}the {\k66}grossest,
+Dialogue: 0,0:00:40.80,0:00:41.83,Cap,,0,0,0,,{\k42}densest {\k44}layer {\k17}of
+Dialogue: 0,0:00:41.86,0:00:42.73,Cap,,0,0,0,,{\k19}this {\k19}new {\k49}reality.
+Dialogue: 0,0:00:43.72,0:00:44.02,Cap,,0,0,0,,{\k30}Bits,
+Dialogue: 0,0:00:44.36,0:00:44.70,Cap,,0,0,0,,{\k34}chips,
+Dialogue: 0,0:00:45.04,0:00:45.40,Cap,,0,0,0,,{\k36}code,
+Dialogue: 0,0:00:46.08,0:00:46.64,Cap,,0,0,0,,{\k8}the {\k32}things {\k16}you
+Dialogue: 0,0:00:46.72,0:00:47.50,Cap,,0,0,0,,{\k34}actually {\k44}run.
+Dialogue: 0,0:00:47.50,0:00:48.14,Cap,,0,0,0,,{\k16}And {\k36}riding {\k12}on
+Dialogue: 0,0:00:48.20,0:00:48.78,Cap,,0,0,0,,{\k22}top {\k14}of {\k22}it
+Dialogue: 0,0:00:48.86,0:00:49.52,Cap,,0,0,0,,{\k8}is {\k18}a {\k40}subtle
+Dialogue: 0,0:00:49.98,0:00:50.80,Cap,,0,0,0,,{\k28}layer {\k24}that {\k30}we've
+Dialogue: 0,0:00:50.84,0:00:52.06,Cap,,0,0,0,,{\k26}barely {\k42}started {\k54}naming.
+Dialogue: 0,0:00:52.94,0:00:53.94,Cap,,0,0,0,,{\k18}Same {\k82}relationship,
+Dialogue: 0,0:00:54.36,0:00:55.70,Cap,,0,0,0,,{\k42}different {\k48}starting {\k44}point.

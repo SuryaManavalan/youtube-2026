@@ -1,0 +1,66 @@
+[Script Info]
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,DejaVu Sans,62,&H0000E7FF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,5,2,2,60,60,430,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.05,Cap,,0,0,0,,{\k8}A {\k78}simulation {\k19}where
+Dialogue: 0,0:00:01.05,0:00:01.88,Cap,,0,0,0,,{\k11}the {\k34}governing {\k38}force
+Dialogue: 0,0:00:01.94,0:00:02.78,Cap,,0,0,0,,{\k26}isn't {\k58}gravity,
+Dialogue: 0,0:00:03.12,0:00:04.00,Cap,,0,0,0,,{\k12}but {\k76}cognition.
+Dialogue: 0,0:00:04.00,0:00:04.94,Cap,,0,0,0,,{\k24}Picture {\k58}instead {\k12}an
+Dialogue: 0,0:00:04.98,0:00:06.90,Cap,,0,0,0,,{\k40}entire {\k132}field {\k20}where
+Dialogue: 0,0:00:06.96,0:00:08.10,Cap,,0,0,0,,{\k38}every {\k60}object {\k16}is
+Dialogue: 0,0:00:08.12,0:00:08.78,Cap,,0,0,0,,{\k66}agentic.
+Dialogue: 0,0:00:08.78,0:00:09.52,Cap,,0,0,0,,{\k19}Every {\k55}file,
+Dialogue: 0,0:00:09.68,0:00:10.46,Cap,,0,0,0,,{\k19}every {\k59}service,
+Dialogue: 0,0:00:10.62,0:00:12.55,Cap,,0,0,0,,{\k15}every {\k66}entity {\k112}carrying
+Dialogue: 0,0:00:12.60,0:00:13.36,Cap,,0,0,0,,{\k26}its {\k22}own {\k28}little
+Dialogue: 0,0:00:13.42,0:00:14.24,Cap,,0,0,0,,{\k48}spark {\k20}of {\k14}the
+Dialogue: 0,0:00:14.28,0:00:15.36,Cap,,0,0,0,,{\k64}intelligence {\k44}fluid,
+Dialogue: 0,0:00:16.34,0:00:17.48,Cap,,0,0,0,,{\k58}animating {\k40}on {\k16}its
+Dialogue: 0,0:00:17.56,0:00:18.60,Cap,,0,0,0,,{\k30}own {\k13}and {\k61}interacting
+Dialogue: 0,0:00:18.62,0:00:19.50,Cap,,0,0,0,,{\k9}with {\k43}everything {\k36}around
+Dialogue: 0,0:00:19.54,0:00:19.74,Cap,,0,0,0,,{\k20}it.
+Dialogue: 0,0:00:19.74,0:00:20.38,Cap,,0,0,0,,{\k12}Think {\k14}of {\k38}like
+Dialogue: 0,0:00:20.46,0:00:21.52,Cap,,0,0,0,,{\k4}a {\k44}physics {\k58}engine
+Dialogue: 0,0:00:21.60,0:00:22.04,Cap,,0,0,0,,{\k6}or {\k8}a {\k30}game
+Dialogue: 0,0:00:22.12,0:00:22.74,Cap,,0,0,0,,{\k62}simulation.
+Dialogue: 0,0:00:23.48,0:00:24.20,Cap,,0,0,0,,{\k24}Every {\k48}tick,
+Dialogue: 0,0:00:24.56,0:00:25.80,Cap,,0,0,0,,{\k4}you {\k106}apply {\k14}the
+Dialogue: 0,0:00:25.86,0:00:26.64,Cap,,0,0,0,,{\k22}laws {\k14}of {\k42}physics
+Dialogue: 0,0:00:26.65,0:00:27.42,Cap,,0,0,0,,{\k9}to {\k23}every {\k45}object
+Dialogue: 0,0:00:27.50,0:00:28.63,Cap,,0,0,0,,{\k8}at {\k44}once {\k61}and
+Dialogue: 0,0:00:28.72,0:00:29.56,Cap,,0,0,0,,{\k58}compute {\k16}where {\k10}it
+Dialogue: 0,0:00:29.60,0:00:30.40,Cap,,0,0,0,,{\k14}all {\k24}goes {\k42}next.
+Dialogue: 0,0:00:31.46,0:00:32.26,Cap,,0,0,0,,{\k18}Now {\k40}swap {\k22}that
+Dialogue: 0,0:00:32.30,0:00:32.48,Cap,,0,0,0,,{\k18}law.
+Dialogue: 0,0:00:32.90,0:00:33.44,Cap,,0,0,0,,{\k28}Every {\k26}tick,
+Dialogue: 0,0:00:33.50,0:00:34.54,Cap,,0,0,0,,{\k28}instead {\k28}of {\k48}applying
+Dialogue: 0,0:00:34.58,0:00:35.02,Cap,,0,0,0,,{\k44}physics,
+Dialogue: 0,0:00:35.38,0:00:36.94,Cap,,0,0,0,,{\k10}we {\k46}apply {\k100}intelligence
+Dialogue: 0,0:00:36.95,0:00:37.74,Cap,,0,0,0,,{\k11}to {\k24}every {\k44}entity
+Dialogue: 0,0:00:37.80,0:00:38.36,Cap,,0,0,0,,{\k4}in {\k9}the {\k43}field.
+Dialogue: 0,0:00:39.26,0:00:39.84,Cap,,0,0,0,,{\k8}And {\k22}they {\k28}think,
+Dialogue: 0,0:00:40.02,0:00:40.28,Cap,,0,0,0,,{\k26}move,
+Dialogue: 0,0:00:40.50,0:00:40.76,Cap,,0,0,0,,{\k26}act,
+Dialogue: 0,0:00:41.02,0:00:41.84,Cap,,0,0,0,,{\k82}negotiate,
+Dialogue: 0,0:00:42.06,0:00:42.56,Cap,,0,0,0,,{\k50}react.
+Dialogue: 0,0:00:42.56,0:00:43.08,Cap,,0,0,0,,{\k8}But {\k16}my {\k28}bet
+Dialogue: 0,0:00:43.16,0:00:43.72,Cap,,0,0,0,,{\k12}is {\k19}that {\k25}it's
+Dialogue: 0,0:00:43.78,0:00:44.76,Cap,,0,0,0,,{\k6}a {\k24}rough {\k68}sketch
+Dialogue: 0,0:00:44.94,0:00:45.72,Cap,,0,0,0,,{\k14}of {\k32}how {\k32}every
+Dialogue: 0,0:00:45.78,0:00:47.84,Cap,,0,0,0,,{\k74}computational {\k58}system {\k74}starts
+Dialogue: 0,0:00:47.88,0:00:48.74,Cap,,0,0,0,,{\k8}to {\k46}behave {\k32}once
+Dialogue: 0,0:00:48.78,0:00:49.90,Cap,,0,0,0,,{\k16}the {\k42}fluid {\k54}soaks
+Dialogue: 0,0:00:50.28,0:00:50.61,Cap,,0,0,0,,{\k12}all {\k8}the {\k13}way
+Dialogue: 0,0:00:50.68,0:00:51.04,Cap,,0,0,0,,{\k36}through.
+Dialogue: 0,0:00:51.94,0:00:53.44,Cap,,0,0,0,,{\k15}Not {\k77}a {\k58}program
+Dialogue: 0,0:00:53.48,0:00:54.14,Cap,,0,0,0,,{\k12}that {\k20}we're {\k34}running,
+Dialogue: 0,0:00:54.32,0:00:55.22,Cap,,0,0,0,,{\k40}but {\k22}the {\k28}world
+Dialogue: 0,0:00:55.28,0:00:56.22,Cap,,0,0,0,,{\k11}that {\k31}runs {\k52}itself.

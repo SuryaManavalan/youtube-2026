@@ -1,0 +1,48 @@
+[Script Info]
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,DejaVu Sans,62,&H0000E7FF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,5,2,2,60,60,430,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.04,0:00:00.67,Cap,,0,0,0,,{\k15}there's {\k9}a {\k39}whole
+Dialogue: 0,0:00:00.72,0:00:02.19,Cap,,0,0,0,,{\k58}invisible {\k58}layer {\k31}sitting
+Dialogue: 0,0:00:02.22,0:00:02.83,Cap,,0,0,0,,{\k13}on {\k35}top {\k13}of
+Dialogue: 0,0:00:02.86,0:00:04.55,Cap,,0,0,0,,{\k8}the {\k141}computation {\k20}that
+Dialogue: 0,0:00:04.60,0:00:05.80,Cap,,0,0,0,,{\k16}once {\k18}you {\k86}see,
+Dialogue: 0,0:00:05.84,0:00:07.08,Cap,,0,0,0,,{\k6}you {\k54}cannot {\k64}unsee.
+Dialogue: 0,0:00:07.08,0:00:07.74,Cap,,0,0,0,,{\k10}When {\k10}you {\k46}picture
+Dialogue: 0,0:00:07.82,0:00:08.14,Cap,,0,0,0,,{\k32}AI,
+Dialogue: 0,0:00:08.26,0:00:09.44,Cap,,0,0,0,,{\k8}you {\k54}probably {\k56}picture
+Dialogue: 0,0:00:09.58,0:00:10.10,Cap,,0,0,0,,{\k8}a {\k44}brain.
+Dialogue: 0,0:00:10.80,0:00:11.78,Cap,,0,0,0,,{\k32}Glowing {\k66}neurons,
+Dialogue: 0,0:00:12.04,0:00:13.24,Cap,,0,0,0,,{\k46}sparks {\k36}jumping {\k38}across
+Dialogue: 0,0:00:13.32,0:00:14.08,Cap,,0,0,0,,{\k76}synapses,
+Dialogue: 0,0:00:14.56,0:00:15.36,Cap,,0,0,0,,{\k8}the {\k20}whole {\k52}Hollywood
+Dialogue: 0,0:00:15.46,0:00:15.80,Cap,,0,0,0,,{\k34}render.
+Dialogue: 0,0:00:16.55,0:00:17.04,Cap,,0,0,0,,{\k16}And {\k33}sure,
+Dialogue: 0,0:00:17.10,0:00:17.62,Cap,,0,0,0,,{\k7}at {\k13}the {\k32}level
+Dialogue: 0,0:00:17.72,0:00:18.46,Cap,,0,0,0,,{\k14}of {\k60}silicon,
+Dialogue: 0,0:00:18.54,0:00:19.86,Cap,,0,0,0,,{\k28}that's {\k86}technically {\k18}kind
+Dialogue: 0,0:00:19.90,0:00:20.41,Cap,,0,0,0,,{\k11}of {\k40}true.
+Dialogue: 0,0:00:20.96,0:00:21.74,Cap,,0,0,0,,{\k11}There {\k17}are {\k50}weights
+Dialogue: 0,0:00:21.82,0:00:22.54,Cap,,0,0,0,,{\k14}and {\k58}layers.
+Dialogue: 0,0:00:22.58,0:00:23.64,Cap,,0,0,0,,{\k15}There's {\k11}a {\k80}transformer
+Dialogue: 0,0:00:23.78,0:00:24.68,Cap,,0,0,0,,{\k29}humming {\k61}underneath.
+Dialogue: 0,0:00:25.52,0:00:26.52,Cap,,0,0,0,,{\k34}But {\k18}that {\k48}picture
+Dialogue: 0,0:00:26.58,0:00:27.32,Cap,,0,0,0,,{\k16}is {\k58}useless.
+Dialogue: 0,0:00:27.46,0:00:28.80,Cap,,0,0,0,,{\k37}Nobody {\k43}actually {\k54}interacts
+Dialogue: 0,0:00:28.86,0:00:29.62,Cap,,0,0,0,,{\k12}with {\k20}a {\k44}brain.
+Dialogue: 0,0:00:30.62,0:00:31.24,Cap,,0,0,0,,{\k4}You {\k28}never {\k30}once
+Dialogue: 0,0:00:31.30,0:00:32.14,Cap,,0,0,0,,{\k20}opened {\k9}your {\k55}laptop
+Dialogue: 0,0:00:32.24,0:00:33.04,Cap,,0,0,0,,{\k9}and {\k33}thought {\k38}about
+Dialogue: 0,0:00:33.08,0:00:33.76,Cap,,0,0,0,,{\k8}a {\k60}synapse.
+Dialogue: 0,0:00:34.04,0:00:34.80,Cap,,0,0,0,,{\k14}So {\k42}let's {\k20}throw
+Dialogue: 0,0:00:34.84,0:00:35.48,Cap,,0,0,0,,{\k12}that {\k36}image {\k16}out
+Dialogue: 0,0:00:35.52,0:00:36.52,Cap,,0,0,0,,{\k67}entirely {\k16}and {\k17}try
+Dialogue: 0,0:00:36.56,0:00:36.94,Cap,,0,0,0,,{\k8}to {\k20}build {\k10}a
+Dialogue: 0,0:00:36.96,0:00:38.52,Cap,,0,0,0,,{\k22}better {\k134}one.

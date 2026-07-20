@@ -36,3 +36,6 @@ venv/
 # --- Editor ---
 .idea/
 *.swp
+
+# --- essay-shorts QA frame grabs (scratch) ---
+**/work/frames/

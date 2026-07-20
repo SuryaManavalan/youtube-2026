@@ -1,0 +1,63 @@
+[Script Info]
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,DejaVu Sans,62,&H0000E7FF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,5,2,2,60,60,430,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.34,Cap,,0,0,0,,{\k48}AI {\k72}is {\k14}a
+Dialogue: 0,0:00:01.42,0:00:01.86,Cap,,0,0,0,,{\k44}fluid,
+Dialogue: 0,0:00:03.00,0:00:04.14,Cap,,0,0,0,,{\k8}a {\k42}flowing {\k64}stream
+Dialogue: 0,0:00:04.32,0:00:05.86,Cap,,0,0,0,,{\k12}of {\k54}pure {\k88}intelligence
+Dialogue: 0,0:00:06.02,0:00:06.46,Cap,,0,0,0,,{\k44}energy.
+Dialogue: 0,0:00:06.82,0:00:07.54,Cap,,0,0,0,,{\k10}A {\k36}small {\k26}number
+Dialogue: 0,0:00:07.60,0:00:08.32,Cap,,0,0,0,,{\k6}of {\k66}companies,
+Dialogue: 0,0:00:08.58,0:00:09.18,Cap,,0,0,0,,{\k60}OpenAI,
+Dialogue: 0,0:00:09.42,0:00:10.06,Cap,,0,0,0,,{\k64}Anthropic,
+Dialogue: 0,0:00:10.30,0:00:10.78,Cap,,0,0,0,,{\k7}and {\k5}a {\k36}handful
+Dialogue: 0,0:00:10.82,0:00:11.36,Cap,,0,0,0,,{\k10}of {\k44}others,
+Dialogue: 0,0:00:12.10,0:00:13.06,Cap,,0,0,0,,{\k30}hold {\k14}the {\k52}tap.
+Dialogue: 0,0:00:13.06,0:00:13.96,Cap,,0,0,0,,{\k22}Strip {\k12}an {\k56}LLM
+Dialogue: 0,0:00:14.00,0:00:14.58,Cap,,0,0,0,,{\k26}down {\k10}to {\k22}its
+Dialogue: 0,0:00:14.62,0:00:15.48,Cap,,0,0,0,,{\k40}bones {\k22}and {\k24}it's
+Dialogue: 0,0:00:15.62,0:00:16.84,Cap,,0,0,0,,{\k69}embarrassingly {\k53}simple.
+Dialogue: 0,0:00:16.98,0:00:17.84,Cap,,0,0,0,,{\k14}It's {\k8}a {\k64}function.
+Dialogue: 0,0:00:18.60,0:00:18.93,Cap,,0,0,0,,{\k33}Input,
+Dialogue: 0,0:00:19.24,0:00:19.64,Cap,,0,0,0,,{\k40}output.
+Dialogue: 0,0:00:20.06,0:00:20.46,Cap,,0,0,0,,{\k8}You {\k20}hand {\k12}it
+Dialogue: 0,0:00:20.58,0:00:21.01,Cap,,0,0,0,,{\k9}one {\k23}piece {\k11}of
+Dialogue: 0,0:00:21.10,0:00:21.48,Cap,,0,0,0,,{\k38}text,
+Dialogue: 0,0:00:21.66,0:00:22.54,Cap,,0,0,0,,{\k16}it {\k36}hands {\k36}you
+Dialogue: 0,0:00:22.70,0:00:23.20,Cap,,0,0,0,,{\k14}one {\k24}piece {\k12}of
+Dialogue: 0,0:00:23.26,0:00:23.88,Cap,,0,0,0,,{\k22}text {\k40}back.
+Dialogue: 0,0:00:24.10,0:00:24.37,Cap,,0,0,0,,{\k16}That's {\k11}it.
+Dialogue: 0,0:00:24.70,0:00:25.46,Cap,,0,0,0,,{\k16}That's {\k10}the {\k50}whole
+Dialogue: 0,0:00:25.50,0:00:25.92,Cap,,0,0,0,,{\k42}miracle.
+Dialogue: 0,0:00:26.64,0:00:27.60,Cap,,0,0,0,,{\k21}But {\k20}that {\k55}output
+Dialogue: 0,0:00:27.66,0:00:28.26,Cap,,0,0,0,,{\k19}isn't {\k17}just {\k24}any
+Dialogue: 0,0:00:28.32,0:00:28.70,Cap,,0,0,0,,{\k38}text.
+Dialogue: 0,0:00:29.34,0:00:29.96,Cap,,0,0,0,,{\k12}It {\k24}came {\k26}back
+Dialogue: 0,0:00:30.02,0:00:31.59,Cap,,0,0,0,,{\k56}modified {\k25}by {\k76}intelligence.
+Dialogue: 0,0:00:31.59,0:00:33.25,Cap,,0,0,0,,{\k58}Companies {\k68}are {\k40}spending
+Dialogue: 0,0:00:33.31,0:00:34.09,Cap,,0,0,0,,{\k29}hundreds {\k9}of {\k40}billions
+Dialogue: 0,0:00:34.13,0:00:34.89,Cap,,0,0,0,,{\k5}of {\k53}dollars {\k18}to
+Dialogue: 0,0:00:35.01,0:00:35.77,Cap,,0,0,0,,{\k16}run {\k28}that {\k32}one
+Dialogue: 0,0:00:35.89,0:00:37.82,Cap,,0,0,0,,{\k50}function {\k114}faster {\k29}and
+Dialogue: 0,0:00:37.93,0:00:39.29,Cap,,0,0,0,,{\k52}faster {\k19}and {\k65}faster.
+Dialogue: 0,0:00:40.05,0:00:40.43,Cap,,0,0,0,,{\k8}And {\k16}when {\k14}you
+Dialogue: 0,0:00:40.49,0:00:41.15,Cap,,0,0,0,,{\k12}run {\k20}it {\k34}fast
+Dialogue: 0,0:00:41.21,0:00:41.79,Cap,,0,0,0,,{\k58}enough,
+Dialogue: 0,0:00:41.81,0:00:43.23,Cap,,0,0,0,,{\k14}the {\k70}individual {\k58}outputs
+Dialogue: 0,0:00:43.27,0:00:44.29,Cap,,0,0,0,,{\k32}stop {\k32}looking {\k38}like
+Dialogue: 0,0:00:44.85,0:00:46.09,Cap,,0,0,0,,{\k52}discrete {\k72}answers
+Dialogue: 0,0:00:46.81,0:00:47.49,Cap,,0,0,0,,{\k10}and {\k28}each {\k30}one
+Dialogue: 0,0:00:47.57,0:00:49.45,Cap,,0,0,0,,{\k58}becomes {\k66}a {\k64}droplet,
+Dialogue: 0,0:00:50.05,0:00:50.86,Cap,,0,0,0,,{\k4}a {\k66}particle {\k11}in
+Dialogue: 0,0:00:50.89,0:00:51.47,Cap,,0,0,0,,{\k8}a {\k50}stream.
+Dialogue: 0,0:00:52.75,0:00:53.17,Cap,,0,0,0,,{\k11}This {\k15}is {\k16}the
+Dialogue: 0,0:00:53.19,0:00:54.57,Cap,,0,0,0,,{\k40}founding {\k58}image {\k40}of
+Dialogue: 0,0:00:54.63,0:00:55.35,Cap,,0,0,0,,{\k12}this {\k18}whole {\k42}theory.

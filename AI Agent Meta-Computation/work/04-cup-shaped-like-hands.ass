@@ -1,0 +1,49 @@
+[Script Info]
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,DejaVu Sans,62,&H0000E7FF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,5,2,2,60,60,430,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.90,Cap,,0,0,0,,{\k12}The {\k42}agent {\k36}is
+Dialogue: 0,0:00:01.00,0:00:01.44,Cap,,0,0,0,,{\k6}the {\k38}cup,
+Dialogue: 0,0:00:02.36,0:00:03.10,Cap,,0,0,0,,{\k22}but {\k16}a {\k36}cup
+Dialogue: 0,0:00:03.20,0:00:04.70,Cap,,0,0,0,,{\k44}shaped {\k30}like {\k76}hands.
+Dialogue: 0,0:00:04.70,0:00:05.88,Cap,,0,0,0,,{\k14}So {\k38}if {\k66}intelligence
+Dialogue: 0,0:00:05.94,0:00:06.68,Cap,,0,0,0,,{\k8}is {\k14}a {\k52}fluid,
+Dialogue: 0,0:00:07.10,0:00:07.84,Cap,,0,0,0,,{\k12}then {\k24}what {\k38}is
+Dialogue: 0,0:00:07.92,0:00:08.64,Cap,,0,0,0,,{\k10}an {\k62}agent?
+Dialogue: 0,0:00:10.16,0:00:10.70,Cap,,0,0,0,,{\k6}If {\k10}we {\k38}remember
+Dialogue: 0,0:00:10.72,0:00:11.34,Cap,,0,0,0,,{\k12}the {\k50}framing,
+Dialogue: 0,0:00:11.48,0:00:12.65,Cap,,0,0,0,,{\k90}computation {\k16}is {\k11}the
+Dialogue: 0,0:00:12.72,0:00:13.12,Cap,,0,0,0,,{\k40}gross,
+Dialogue: 0,0:00:13.46,0:00:13.76,Cap,,0,0,0,,{\k30}dense,
+Dialogue: 0,0:00:13.88,0:00:14.64,Cap,,0,0,0,,{\k34}physical {\k30}layer {\k12}of
+Dialogue: 0,0:00:14.68,0:00:15.26,Cap,,0,0,0,,{\k18}this {\k40}world.
+Dialogue: 0,0:00:16.06,0:00:16.92,Cap,,0,0,0,,{\k10}So {\k22}an {\k54}agent
+Dialogue: 0,0:00:17.06,0:00:18.32,Cap,,0,0,0,,{\k24}is {\k26}the {\k76}grossest
+Dialogue: 0,0:00:18.80,0:00:20.42,Cap,,0,0,0,,{\k86}computational {\k44}form {\k32}the
+Dialogue: 0,0:00:20.46,0:00:21.64,Cap,,0,0,0,,{\k74}intelligence {\k24}can {\k20}pour
+Dialogue: 0,0:00:21.66,0:00:22.68,Cap,,0,0,0,,{\k44}itself {\k58}into.
+Dialogue: 0,0:00:23.74,0:00:24.18,Cap,,0,0,0,,{\k8}A {\k36}body.
+Dialogue: 0,0:00:25.26,0:00:26.26,Cap,,0,0,0,,{\k2}A {\k42}dense {\k56}running
+Dialogue: 0,0:00:26.34,0:00:27.68,Cap,,0,0,0,,{\k76}application {\k40}that {\k18}the
+Dialogue: 0,0:00:27.72,0:00:28.88,Cap,,0,0,0,,{\k40}fluid {\k76}animates
+Dialogue: 0,0:00:29.72,0:00:30.08,Cap,,0,0,0,,{\k6}so {\k12}it {\k18}can
+Dialogue: 0,0:00:30.10,0:00:30.75,Cap,,0,0,0,,{\k20}reach {\k32}out {\k13}and
+Dialogue: 0,0:00:30.86,0:00:32.78,Cap,,0,0,0,,{\k32}touch {\k52}other {\k108}computationally
+Dialogue: 0,0:00:32.94,0:00:33.98,Cap,,0,0,0,,{\k30}dense {\k74}objects.
+Dialogue: 0,0:00:35.00,0:00:35.52,Cap,,0,0,0,,{\k52}Files,
+Dialogue: 0,0:00:35.66,0:00:36.10,Cap,,0,0,0,,{\k44}terminals,
+Dialogue: 0,0:00:36.20,0:00:36.59,Cap,,0,0,0,,{\k39}APIs,
+Dialogue: 0,0:00:36.64,0:00:37.62,Cap,,0,0,0,,{\k6}and {\k30}other {\k62}programs,
+Dialogue: 0,0:00:38.04,0:00:38.40,Cap,,0,0,0,,{\k12}as {\k12}well {\k12}as
+Dialogue: 0,0:00:38.52,0:00:38.80,Cap,,0,0,0,,{\k28}us.
+Dialogue: 0,0:00:40.56,0:00:41.18,Cap,,0,0,0,,{\k30}Water {\k16}on {\k16}its
+Dialogue: 0,0:00:41.30,0:00:42.52,Cap,,0,0,0,,{\k22}own {\k44}can't {\k56}type.
+Dialogue: 0,0:00:43.72,0:00:44.46,Cap,,0,0,0,,{\k10}It {\k50}needs {\k14}a
+Dialogue: 0,0:00:44.52,0:00:44.84,Cap,,0,0,0,,{\k32}cup.

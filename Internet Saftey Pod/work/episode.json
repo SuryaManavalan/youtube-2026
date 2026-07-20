@@ -1,0 +1,29 @@
+{
+ "video": "/home/surya/projects/youtube-2026/Internet Saftey Pod/RAW/2026-07-19 16-03-26.mp4",
+ "duration": 5013.466667,
+ "width": 1800,
+ "height": 1200,
+ "tiles": {
+  "A": [
+   462,
+   119,
+   882,
+   492
+  ],
+  "B": [
+   462,
+   629,
+   882,
+   492
+  ]
+ },
+ "layout": "stacked",
+ "speaker_tile": {
+  "speaker_0": "B",
+  "speaker_1": "A"
+ },
+ "gain_db": {
+  "speaker_0": 1.29,
+  "speaker_1": 0.0
+ }
+}

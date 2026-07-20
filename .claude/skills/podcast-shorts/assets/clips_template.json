@@ -1,0 +1,13 @@
+{
+  "_comment": "Editorial cut list. Copy to <episode-dir>/clips.json and fill in. Times are 'H:MM:SS' or 'MM:SS' (fractions ok: '0:21:28.5'), read from work/transcript_turns.txt. speaker: a diarized id like 'speaker_0', or 'any' to keep both speakers' words (banter). shot: 'solo' (full-frame on that speaker) or 'stacked' (both cams). Segments play in listed order — reordering dialogue is allowed and encouraged when it tightens the story.",
+  "clips": [
+    {
+      "slug": "01_example",
+      "title": "Short human-readable title",
+      "segments": [
+        {"start": "0:20:33", "end": "0:20:43", "speaker": "speaker_0", "shot": "solo"},
+        {"start": "0:21:25", "end": "0:21:28", "speaker": "speaker_1", "shot": "stacked"}
+      ]
+    }
+  ]
+}

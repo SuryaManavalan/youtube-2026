@@ -1,0 +1,49 @@
+[Script Info]
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,DejaVu Sans,62,&H0000E7FF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,5,2,2,60,60,430,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.48,Cap,,0,0,0,,{\k16}It's {\k18}not {\k14}a
+Dialogue: 0,0:00:00.50,0:00:00.88,Cap,,0,0,0,,{\k38}river.
+Dialogue: 0,0:00:01.16,0:00:01.94,Cap,,0,0,0,,{\k6}A {\k26}river {\k46}flows
+Dialogue: 0,0:00:01.98,0:00:02.45,Cap,,0,0,0,,{\k8}to {\k30}somewhere {\k9}and
+Dialogue: 0,0:00:02.58,0:00:03.04,Cap,,0,0,0,,{\k46}stops.
+Dialogue: 0,0:00:03.62,0:00:04.50,Cap,,0,0,0,,{\k14}This {\k30}just {\k44}keeps
+Dialogue: 0,0:00:04.52,0:00:04.96,Cap,,0,0,0,,{\k44}coming.
+Dialogue: 0,0:00:04.96,0:00:05.48,Cap,,0,0,0,,{\k10}Run {\k12}it {\k30}fast
+Dialogue: 0,0:00:05.52,0:00:06.41,Cap,,0,0,0,,{\k48}enough {\k12}to {\k29}become
+Dialogue: 0,0:00:06.41,0:00:07.14,Cap,,0,0,0,,{\k11}a {\k62}fluid,
+Dialogue: 0,0:00:07.20,0:00:07.78,Cap,,0,0,0,,{\k4}a {\k36}stream {\k18}of
+Dialogue: 0,0:00:07.84,0:00:09.03,Cap,,0,0,0,,{\k46}pure {\k73}intelligence,
+Dialogue: 0,0:00:09.54,0:00:09.92,Cap,,0,0,0,,{\k9}with {\k10}a {\k19}few
+Dialogue: 0,0:00:09.98,0:00:10.86,Cap,,0,0,0,,{\k45}companies {\k32}holding {\k11}the
+Dialogue: 0,0:00:10.90,0:00:12.00,Cap,,0,0,0,,{\k110}tap.
+Dialogue: 0,0:00:12.00,0:00:12.46,Cap,,0,0,0,,{\k10}None {\k8}of {\k28}this
+Dialogue: 0,0:00:12.68,0:00:13.82,Cap,,0,0,0,,{\k30}is {\k84}proven.
+Dialogue: 0,0:00:13.96,0:00:14.34,Cap,,0,0,0,,{\k10}It's {\k18}just {\k10}a
+Dialogue: 0,0:00:14.46,0:00:14.94,Cap,,0,0,0,,{\k48}lens.
+Dialogue: 0,0:00:15.56,0:00:16.08,Cap,,0,0,0,,{\k10}But {\k22}once {\k20}you've
+Dialogue: 0,0:00:16.20,0:00:17.34,Cap,,0,0,0,,{\k36}seen {\k24}the {\k54}intelligence
+Dialogue: 0,0:00:17.40,0:00:17.92,Cap,,0,0,0,,{\k8}as {\k6}a {\k38}fluid,
+Dialogue: 0,0:00:17.98,0:00:19.06,Cap,,0,0,0,,{\k6}you {\k40}start {\k62}noticing
+Dialogue: 0,0:00:19.18,0:00:20.22,Cap,,0,0,0,,{\k10}the {\k36}tap {\k58}everywhere.
+Dialogue: 0,0:00:21.24,0:00:22.00,Cap,,0,0,0,,{\k14}And {\k14}you {\k48}realize
+Dialogue: 0,0:00:22.04,0:00:22.50,Cap,,0,0,0,,{\k18}that {\k12}you're {\k16}not
+Dialogue: 0,0:00:22.56,0:00:23.78,Cap,,0,0,0,,{\k28}really {\k48}using {\k46}AI.
+Dialogue: 0,0:00:24.58,0:00:25.78,Cap,,0,0,0,,{\k12}You're {\k54}standing {\k54}in
+Dialogue: 0,0:00:25.86,0:00:26.42,Cap,,0,0,0,,{\k8}the {\k48}current,
+Dialogue: 0,0:00:27.20,0:00:27.96,Cap,,0,0,0,,{\k20}letting {\k14}it {\k42}pour
+Dialogue: 0,0:00:28.10,0:00:29.44,Cap,,0,0,0,,{\k38}over {\k32}every {\k64}problem
+Dialogue: 0,0:00:29.72,0:00:30.34,Cap,,0,0,0,,{\k20}you've {\k42}got.
+Dialogue: 0,0:00:31.64,0:00:32.18,Cap,,0,0,0,,{\k30}Calling {\k16}that {\k8}a
+Dialogue: 0,0:00:32.24,0:00:32.58,Cap,,0,0,0,,{\k34}river.
+Dialogue: 0,0:00:32.58,0:00:33.06,Cap,,0,0,0,,{\k10}So {\k26}cry {\k12}me
+Dialogue: 0,0:00:33.12,0:00:33.48,Cap,,0,0,0,,{\k4}a {\k32}river.
+Dialogue: 0,0:00:33.60,0:00:34.26,Cap,,0,0,0,,{\k22}Don't {\k34}cry {\k10}me
+Dialogue: 0,0:00:34.32,0:00:34.80,Cap,,0,0,0,,{\k4}a {\k44}stream.
