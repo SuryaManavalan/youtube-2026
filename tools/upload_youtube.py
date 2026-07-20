@@ -28,7 +28,7 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
 
-SCOPES = ["https://www.googleapis.com/auth/youtube.upload"]
+SCOPES = ["https://www.googleapis.com/auth/youtube.force-ssl"]
 CLIENT = os.path.expanduser("~/.yt_client_secret.json")
 TOKEN = os.path.expanduser("~/.yt_token.json")
 CATEGORY_TECH = "28"
@@ -83,6 +83,10 @@ def main():
     ap.add_argument("--daily-from", metavar="ISO_DATETIME",
                     help="schedule publishing one clip per day starting at "
                          "this time, e.g. 2026-07-21T12:00:00-07:00")
+    ap.add_argument("--update", action="store_true",
+                    help="update title/description of already-uploaded clips "
+                         "(ids from work/youtube_uploads.json) instead of "
+                         "uploading")
     args = ap.parse_args()
 
     yt = get_service()
@@ -92,8 +96,27 @@ def main():
     if not args.episode:
         sys.exit("episode dir required (or --auth-only)")
 
-    clips = json.load(open(os.path.join(args.episode, "clips.json")))["clips"]
+    spec = json.load(open(os.path.join(args.episode, "clips.json")))
+    clips, full_video = spec["clips"], spec.get("full_video")
     want = set(args.slugs)
+    log = os.path.join(args.episode, "work", "youtube_uploads.json")
+
+    if args.update:
+        ids = json.load(open(log))
+        for c in clips:
+            vid = ids.get(c["slug"])
+            if not vid or (want and c["slug"] not in want):
+                continue
+            title = c.get("yt_title", c["title"])
+            desc = c.get("caption", c["title"])
+            if full_video:
+                desc += f"\n\nWatch the full video: {full_video}"
+            yt.videos().update(part="snippet", body={
+                "id": vid,
+                "snippet": {"title": title, "description": desc,
+                            "categoryId": CATEGORY_TECH}}).execute()
+            print(f"updated {c['slug']} ({vid}): {title!r}")
+        return
     start = datetime.fromisoformat(args.daily_from) if args.daily_from else None
     results, i = {}, 0
     for c in clips:
@@ -103,13 +126,15 @@ def main():
         if not os.path.exists(path):
             print(f"SKIP {c['slug']}: {path} missing")
             continue
+        title = c.get("yt_title", c["title"])
         desc = c.get("caption", c["title"])
+        if full_video:
+            desc += f"\n\nWatch the full video: {full_video}"
         publish_at = start + timedelta(days=i) if start else None
         i += 1
-        print(f"uploading {c['slug']}: {c['title']!r}")
-        results[c["slug"]] = upload(yt, path, c["title"], desc,
+        print(f"uploading {c['slug']}: {title!r}")
+        results[c["slug"]] = upload(yt, path, title, desc,
                                     args.privacy, publish_at)
-    log = os.path.join(args.episode, "work", "youtube_uploads.json")
     prev = json.load(open(log)) if os.path.exists(log) else {}
     prev.update(results)
     json.dump(prev, open(log, "w"), indent=1)

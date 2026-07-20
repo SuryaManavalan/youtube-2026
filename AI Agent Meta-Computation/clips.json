@@ -14,7 +14,8 @@
           32.46
         ]
       ],
-      "caption": "Your mental image of AI is Hollywood slop. Throw it out. #ai #aibrainrot #techphilosophy"
+      "caption": "Your mental image of AI is Hollywood slop. Throw it out. #ai #aibrainrot #techphilosophy",
+      "yt_title": "Your mental image of AI is Hollywood slop. Throw it out."
     },
     {
       "slug": "02-metacomputation",
@@ -38,7 +39,8 @@
           103.16
         ]
       ],
-      "caption": "Physics is to metaphysics what computation is to\u2026 this. #metacomputation #ai #philosophy"
+      "caption": "Physics is to metaphysics what computation is to… this. #metacomputation #ai #philosophy",
+      "yt_title": "Physics is to metaphysics what computation is to… this."
     },
     {
       "slug": "03-ai-is-a-fluid",
@@ -58,7 +60,8 @@
           172.6
         ]
       ],
-      "caption": "AI isn't a brain. It's a fluid \u2014 and like five companies hold the tap. #ai #openai #anthropic"
+      "caption": "AI isn't a brain. It's a fluid — and like five companies hold the tap. #ai #openai #anthropic",
+      "yt_title": "AI isn't a brain. It's a fluid — and five companies hold the tap."
     },
     {
       "slug": "04-cup-shaped-like-hands",
@@ -74,11 +77,12 @@
           227.24
         ]
       ],
-      "caption": "Water on its own can't type. An agent is a cup shaped like hands. #aiagents #ai #agentic"
+      "caption": "Water on its own can't type. An agent is a cup shaped like hands. #aiagents #ai #agentic",
+      "yt_title": "Water on its own can't type. An agent is a cup shaped like hands."
     },
     {
       "slug": "05-it-stopped-forgetting",
-      "title": "It didn't get smarter \u2014 it stopped forgetting",
+      "title": "It didn't get smarter — it stopped forgetting",
       "hook": "Starts to feel like a someone... because it stopped forgetting",
       "segments": [
         [
@@ -90,7 +94,8 @@
           275.44
         ]
       ],
-      "caption": "It didn't get smarter. It stopped forgetting. That's the entire trick. #aiagents #llm #ai"
+      "caption": "It didn't get smarter. It stopped forgetting. That's the entire trick. #aiagents #llm #ai",
+      "yt_title": "It didn't get smarter. It stopped forgetting."
     },
     {
       "slug": "06-file-tree-of-the-soul",
@@ -110,7 +115,8 @@
           421.64
         ]
       ],
-      "caption": "SOUL.md at the root. The ancients wrote the first system prompt. #vedic #ai #spiritualtech"
+      "caption": "SOUL.md at the root. The ancients wrote the first system prompt. #vedic #ai #spiritualtech",
+      "yt_title": "SOUL.md at the root. The ancients wrote the first system prompt."
     },
     {
       "slug": "07-could-a-soul-move-in",
@@ -130,7 +136,8 @@
           529.56
         ]
       ],
-      "caption": "If you build the vessel to spec\u2026 does something notice the door is open? #ai #consciousness #vedic"
+      "caption": "If you build the vessel to spec… does something notice the door is open? #ai #consciousness #vedic",
+      "yt_title": "Build the vessel to spec… does something notice the door is open?"
     },
     {
       "slug": "08-the-agentic-field",
@@ -158,7 +165,8 @@
           643.84
         ]
       ],
-      "caption": "A simulation where the governing law isn't gravity. It's cognition. #simulation #ai #agi"
+      "caption": "A simulation where the governing law isn't gravity. It's cognition. #simulation #ai #agi",
+      "yt_title": "A simulation where the governing law isn't gravity. It's cognition."
     },
     {
       "slug": "09-cry-me-a-river",
@@ -182,7 +190,9 @@
           713.1
         ]
       ],
-      "caption": "You're not using AI. You're standing in the current. #ai #aifluid #techphilosophy"
+      "caption": "You're not using AI. You're standing in the current. #ai #aifluid #techphilosophy",
+      "yt_title": "You're not using AI. You're standing in the current."
     }
-  ]
+  ],
+  "full_video": "https://youtu.be/8pHSnC4r-fs"
 }
