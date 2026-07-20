@@ -4,55 +4,185 @@
       "slug": "01-picture-a-brain",
       "title": "Stop picturing AI as a brain",
       "hook": "There's a whole invisible layer... you cannot unsee",
-      "segments": [[32.78, 39.86], [1.02, 32.46]]
+      "segments": [
+        [
+          32.78,
+          39.86
+        ],
+        [
+          1.02,
+          32.46
+        ]
+      ],
+      "caption": "Your mental image of AI is Hollywood slop. Throw it out. #ai #aibrainrot #techphilosophy"
     },
     {
       "slug": "02-metacomputation",
       "title": "Metaphysics : physics :: metacomputation : computation",
       "hook": "Metaphysics is to physics what metacomputation is to computation",
-      "segments": [[104.18, 109.52], [43.96, 57.58], [61.36, 89.90], [94.96, 103.16]]
+      "segments": [
+        [
+          104.18,
+          109.52
+        ],
+        [
+          43.96,
+          57.58
+        ],
+        [
+          61.36,
+          89.9
+        ],
+        [
+          94.96,
+          103.16
+        ]
+      ],
+      "caption": "Physics is to metaphysics what computation is to\u2026 this. #metacomputation #ai #philosophy"
     },
     {
       "slug": "03-ai-is-a-fluid",
       "title": "AI is a fluid",
       "hook": "AI is a fluid... a handful of companies hold the tap",
-      "segments": [[173.40, 186.46], [119.50, 138.03], [148.84, 172.60]]
+      "segments": [
+        [
+          173.4,
+          186.46
+        ],
+        [
+          119.5,
+          138.03
+        ],
+        [
+          148.84,
+          172.6
+        ]
+      ],
+      "caption": "AI isn't a brain. It's a fluid \u2014 and like five companies hold the tap. #ai #openai #anthropic"
     },
     {
       "slug": "04-cup-shaped-like-hands",
       "title": "An agent is a cup shaped like hands",
       "hook": "The agent is the cup, but a cup shaped like hands",
-      "segments": [[228.22, 232.92], [187.10, 227.24]]
+      "segments": [
+        [
+          228.22,
+          232.92
+        ],
+        [
+          187.1,
+          227.24
+        ]
+      ],
+      "caption": "Water on its own can't type. An agent is a cup shaped like hands. #aiagents #ai #agentic"
     },
     {
       "slug": "05-it-stopped-forgetting",
-      "title": "It didn't get smarter — it stopped forgetting",
+      "title": "It didn't get smarter \u2014 it stopped forgetting",
       "hook": "Starts to feel like a someone... because it stopped forgetting",
-      "segments": [[276.24, 284.92], [236.36, 275.44]]
+      "segments": [
+        [
+          276.24,
+          284.92
+        ],
+        [
+          236.36,
+          275.44
+        ]
+      ],
+      "caption": "It didn't get smarter. It stopped forgetting. That's the entire trick. #aiagents #llm #ai"
     },
     {
       "slug": "06-file-tree-of-the-soul",
       "title": "The file tree of the soul",
       "hook": "Picture the file tree. At the root, SOUL.md",
-      "segments": [[390.14, 401.18], [373.50, 389.00], [401.60, 421.64]]
+      "segments": [
+        [
+          390.14,
+          401.18
+        ],
+        [
+          373.5,
+          389.0
+        ],
+        [
+          401.6,
+          421.64
+        ]
+      ],
+      "caption": "SOUL.md at the root. The ancients wrote the first system prompt. #vedic #ai #spiritualtech"
     },
     {
       "slug": "07-could-a-soul-move-in",
       "title": "Could a soul move in?",
       "hook": "A computational body shaped like a place where a soul lives",
-      "segments": [[489.20, 501.86], [470.36, 489.24], [503.78, 529.56]]
+      "segments": [
+        [
+          489.2,
+          501.86
+        ],
+        [
+          470.36,
+          489.24
+        ],
+        [
+          503.78,
+          529.56
+        ]
+      ],
+      "caption": "If you build the vessel to spec\u2026 does something notice the door is open? #ai #consciousness #vedic"
     },
     {
       "slug": "08-the-agentic-field",
       "title": "A simulation where the law is cognition",
       "hook": "The governing force isn't gravity, but cognition",
-      "segments": [[618.36, 622.36], [563.68, 568.46], [572.30, 583.26], [594.46, 617.28], [630.18, 643.84]]
+      "segments": [
+        [
+          618.36,
+          622.36
+        ],
+        [
+          563.68,
+          568.46
+        ],
+        [
+          572.3,
+          583.26
+        ],
+        [
+          594.46,
+          617.28
+        ],
+        [
+          630.18,
+          643.84
+        ]
+      ],
+      "caption": "A simulation where the governing law isn't gravity. It's cognition. #simulation #ai #agi"
     },
     {
       "slug": "09-cry-me-a-river",
       "title": "Cry me a river, don't cry me a stream",
       "hook": "It's not a river. This just keeps coming",
-      "segments": [[704.90, 709.86], [649.72, 656.76], [683.22, 703.80], [710.88, 713.10]]
+      "segments": [
+        [
+          704.9,
+          709.86
+        ],
+        [
+          649.72,
+          656.76
+        ],
+        [
+          683.22,
+          703.8
+        ],
+        [
+          710.88,
+          713.1
+        ]
+      ],
+      "caption": "You're not using AI. You're standing in the current. #ai #aifluid #techphilosophy"
     }
   ]
 }

@@ -1,0 +1,54 @@
+[Script Info]
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,DejaVu Sans,62,&H0000E7FF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,5,2,2,60,60,430,1
+Style: CapMid,DejaVu Sans,62,&H0000E7FF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,5,2,5,60,60,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.15,0:00:00.51,Cap,,0,0,0,,{\k36}Anyways,
+Dialogue: 0,0:00:00.85,0:00:01.99,Cap,,0,0,0,,{\k18}that's {\k20}pretty {\k76}much
+Dialogue: 0,0:00:02.07,0:00:02.74,Cap,,0,0,0,,{\k10}all {\k20}of {\k37}the
+Dialogue: 0,0:00:02.77,0:00:03.72,Cap,,0,0,0,,{\k70}topics {\k12}that {\k13}I
+Dialogue: 0,0:00:03.77,0:00:04.01,Cap,,0,0,0,,{\k24}had,
+Dialogue: 0,0:00:04.09,0:00:04.33,Cap,,0,0,0,,{\k24}uh,
+Dialogue: 0,0:00:04.37,0:00:04.73,Cap,,0,0,0,,{\k12}set {\k24}up.
+Dialogue: 0,0:00:04.97,0:00:05.45,Cap,,0,0,0,,{\k10}So {\k17}this {\k21}was
+Dialogue: 0,0:00:05.53,0:00:05.54,Cap,,0,0,0,,{\k1}a,
+Dialogue: 0,0:00:06.50,0:00:07.55,Cap,,0,0,0,,{\k7}a {\k27}little {\k71}podcast
+Dialogue: 0,0:00:07.63,0:00:08.79,Cap,,0,0,0,,{\k22}on {\k42}internet {\k52}safety.
+Dialogue: 0,0:00:09.19,0:00:09.20,CapMid,,0,0,0,,{\k1}Yeah.
+Dialogue: 0,0:00:09.23,0:00:09.65,CapMid,,0,0,0,,{\k6}I {\k14}think {\k22}at
+Dialogue: 0,0:00:09.75,0:00:10.87,CapMid,,0,0,0,,{\k64}least {\k48}three
+Dialogue: 0,0:00:12.03,0:00:12.75,CapMid,,0,0,0,,{\k32}YouTube {\k40}Shorts.
+Dialogue: 0,0:00:14.19,0:00:14.33,CapMid,,0,0,0,,{\k14}Yeah,
+Dialogue: 0,0:00:14.47,0:00:14.48,CapMid,,0,0,0,,{\k1}uh,
+Dialogue: 0,0:00:14.89,0:00:15.33,CapMid,,0,0,0,,{\k44}easy.
+Dialogue: 0,0:00:15.49,0:00:15.79,CapMid,,0,0,0,,{\k14}You {\k16}know,
+Dialogue: 0,0:00:15.93,0:00:16.12,CapMid,,0,0,0,,{\k2}I {\k10}don't {\k7}know
+Dialogue: 0,0:00:16.15,0:00:16.70,CapMid,,0,0,0,,{\k8}what {\k14}your {\k33}AI's
+Dialogue: 0,0:00:16.73,0:00:17.17,CapMid,,0,0,0,,{\k14}gonna {\k30}say.
+Dialogue: 0,0:00:17.57,0:00:17.76,Cap,,0,0,0,,{\k8}Save {\k1}me {\k11}a
+Dialogue: 0,0:00:17.86,0:00:18.22,Cap,,0,0,0,,{\k36}rant.
+Dialogue: 0,0:00:20.18,0:00:20.70,Cap,,0,0,0,,{\k7}Your {\k27}AI {\k18}comes
+Dialogue: 0,0:00:20.72,0:00:20.90,Cap,,0,0,0,,{\k18}back,
+Dialogue: 0,0:00:21.22,0:00:21.60,Cap,,0,0,0,,{\k8}"I {\k12}could {\k18}only
+Dialogue: 0,0:00:21.64,0:00:22.18,Cap,,0,0,0,,{\k16}find {\k38}one,
+Dialogue: 0,0:00:22.58,0:00:22.90,Cap,,0,0,0,,{\k8}and {\k13}this {\k11}is
+Dialogue: 0,0:00:22.94,0:00:23.86,Cap,,0,0,0,,{\k10}not {\k24}even {\k58}that
+Dialogue: 0,0:00:23.92,0:00:24.30,Cap,,0,0,0,,{\k38}good."
+Dialogue: 0,0:00:24.70,0:00:25.22,CapMid,,0,0,0,,{\k2}I {\k16}didn't {\k34}record
+Dialogue: 0,0:00:25.32,0:00:25.54,CapMid,,0,0,0,,{\k22}Roblox.
+Dialogue: 0,0:00:26.04,0:00:26.25,CapMid,,0,0,0,,{\k12}It's {\k9}the,
+Dialogue: 0,0:00:26.25,0:00:26.62,CapMid,,0,0,0,,{\k1}it's {\k1}the {\k36}beginning
+Dialogue: 0,0:00:26.70,0:00:27.08,CapMid,,0,0,0,,{\k12}one {\k14}where {\k12}I'm
+Dialogue: 0,0:00:27.12,0:00:27.22,CapMid,,0,0,0,,{\k10}like,
+Dialogue: 0,0:00:27.40,0:00:27.56,CapMid,,0,0,0,,{\k16}"Dude,
+Dialogue: 0,0:00:27.60,0:00:27.92,CapMid,,0,0,0,,{\k4}I {\k15}fell {\k13}off
+Dialogue: 0,0:00:27.94,0:00:28.36,CapMid,,0,0,0,,{\k8}the {\k34}map.
+Dialogue: 0,0:00:28.78,0:00:29.02,CapMid,,0,0,0,,{\k24}Oh,
+Dialogue: 0,0:00:29.16,0:00:29.68,CapMid,,0,0,0,,{\k52}real!"

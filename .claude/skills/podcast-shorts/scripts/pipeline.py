@@ -433,6 +433,66 @@ def cmd_edl(ep):
 
 # ---------------------------------------------------------------- render
 
+ASS_HEAD = """[Script Info]
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,DejaVu Sans,62,&H0000E7FF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,5,2,2,60,60,430,1
+Style: CapMid,DejaVu Sans,62,&H0000E7FF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,5,2,5,60,60,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+"""
+
+
+def ass_time(t):
+    cs = int(round(t * 100))
+    return f"{cs//360000}:{cs//6000%60:02d}:{cs//100%60:02d}.{cs%100:02d}"
+
+
+def build_ass(words, segments, path):
+    """Word-timed karaoke captions (white text, yellow fill) on the output
+    timeline. segments: list of edl segments (in/out/speaker/shot). Solo
+    shots caption in the lower third (style Cap); stacked shots at the seam
+    between the two cams (style CapMid) so neither face is covered."""
+    timeline, base = [], 0.0
+    for seg in segments:
+        a, b = seg["in"], seg["out"]
+        spk, shot = seg["speaker"], seg.get("shot", "solo")
+        style = "CapMid" if (shot == "stacked" or spk == "any") else "Cap"
+        for w in words:
+            if (spk == "any" or w["speaker_id"] == spk) \
+                    and a - 0.05 <= w["start"] < b:
+                timeline.append((base + max(0, w["start"] - a),
+                                 base + min(b, w["end"]) - a,
+                                 w["text"].strip(), style))
+        base += b - a
+    lines, cur = [], []
+    for i, wd in enumerate(timeline):
+        cur.append(wd)
+        gap = timeline[i + 1][0] - wd[1] if i + 1 < len(timeline) else 99
+        style_break = i + 1 < len(timeline) and timeline[i + 1][3] != wd[3]
+        if len(cur) >= 3 or gap > 0.7 or style_break \
+                or wd[2].endswith((".", "?", "!", ",")):
+            lines.append(cur); cur = []
+    if cur:
+        lines.append(cur)
+    with open(path, "w") as f:
+        f.write(ASS_HEAD)
+        for ln in lines:
+            t0, t1 = ln[0][0], ln[-1][1]
+            parts, prev = [], t0
+            for wst, wen, txt, _ in ln:
+                k = max(1, int(round((wen - prev) * 100)))
+                parts.append(f"{{\\k{k}}}{txt}")
+                prev = wen
+            f.write(f"Dialogue: 0,{ass_time(t0)},{ass_time(t1)},{ln[0][3]},"
+                    f",0,0,0,,{' '.join(parts)}\n")
+
+
 def solo_vf(meta, tile):
     x, y, w, h = meta["tiles"][tile]
     fx = meta.get("face_x", {}).get(tile, 0.5)
@@ -463,6 +523,8 @@ def cmd_render(ep, slugs):
     os.makedirs(P["tmp"], exist_ok=True)
     os.makedirs(P["shorts"], exist_ok=True)
     gains = meta.get("gain_db", {})
+    all_words = [w for w in json.load(open(P["raw_json"]))["words"]
+                 if w["type"] == "word"]
     for clip in edl:
         if slugs and clip["slug"] not in slugs:
             continue
@@ -492,11 +554,15 @@ def cmd_render(ep, slugs):
         lst = os.path.join(P["tmp"], f"{clip['slug']}_list.txt")
         with open(lst, "w") as f:
             f.writelines(f"file '{p}'\n" for p in seg_files)
+        ass = os.path.join(P["tmp"], f"{clip['slug']}.ass")
+        build_ass(all_words, clip["segments"], ass)
         out = os.path.join(P["shorts"], f"{clip['slug']}.mp4")
         subprocess.run(
             ["ffmpeg", "-v", "error", "-f", "concat", "-safe", "0",
              "-i", lst, "-af", f"loudnorm=I={LUFS_TARGET}:TP=-1.5:LRA=11",
-             "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", out, "-y"],
+             "-vf", f"subtitles={ass.replace(':', chr(92) + ':')}",
+             "-c:v", "libx264", "-preset", "medium", "-crf", "19",
+             "-c:a", "aac", "-b:a", "192k", out, "-y"],
             check=True)
         print(f"rendered {out} ({clip['duration']}s)")
 

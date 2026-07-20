@@ -1,0 +1,86 @@
+[Script Info]
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,DejaVu Sans,62,&H0000E7FF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,5,2,2,60,60,430,1
+Style: CapMid,DejaVu Sans,62,&H0000E7FF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,5,2,5,60,60,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.15,0:00:00.29,Cap,,0,0,0,,{\k14}Uh,
+Dialogue: 0,0:00:00.39,0:00:00.59,Cap,,0,0,0,,{\k6}I {\k9}don't {\k5}know.
+Dialogue: 0,0:00:00.63,0:00:01.03,Cap,,0,0,0,,{\k6}I {\k24}guess {\k10}the
+Dialogue: 0,0:00:01.07,0:00:01.79,Cap,,0,0,0,,{\k22}moral {\k38}question {\k12}of
+Dialogue: 0,0:00:01.83,0:00:02.17,Cap,,0,0,0,,{\k16}like {\k18}if,
+Dialogue: 0,0:00:02.23,0:00:02.31,Cap,,0,0,0,,{\k8}if,
+Dialogue: 0,0:00:02.41,0:00:03.42,Cap,,0,0,0,,{\k8}if {\k38}you're {\k55}okay
+Dialogue: 0,0:00:03.45,0:00:04.07,Cap,,0,0,0,,{\k17}with {\k26}giving {\k19}that
+Dialogue: 0,0:00:04.09,0:00:04.59,Cap,,0,0,0,,{\k26}data {\k14}up {\k10}in
+Dialogue: 0,0:00:04.63,0:00:05.89,Cap,,0,0,0,,{\k10}the {\k29}first {\k87}place,
+Dialogue: 0,0:00:05.97,0:00:06.35,Cap,,0,0,0,,{\k14}why {\k10}are {\k14}you
+Dialogue: 0,0:00:06.39,0:00:07.16,Cap,,0,0,0,,{\k52}concerned {\k25}now?
+Dialogue: 0,0:00:07.31,0:00:07.51,Cap,,0,0,0,,{\k11}For {\k9}me,
+Dialogue: 0,0:00:07.55,0:00:08.19,Cap,,0,0,0,,{\k12}it's {\k18}like {\k34}this.
+Dialogue: 0,0:00:08.57,0:00:08.61,Cap,,0,0,0,,{\k4}I,
+Dialogue: 0,0:00:08.70,0:00:09.05,Cap,,0,0,0,,{\k7}I {\k18}think {\k10}the
+Dialogue: 0,0:00:09.09,0:00:09.89,Cap,,0,0,0,,{\k38}analogy {\k18}for {\k24}that
+Dialogue: 0,0:00:09.97,0:00:10.29,Cap,,0,0,0,,{\k10}is {\k22}like,
+Dialogue: 0,0:00:10.83,0:00:11.15,Cap,,0,0,0,,{\k32}okay,
+Dialogue: 0,0:00:11.43,0:00:11.55,Cap,,0,0,0,,{\k12}I
+Dialogue: 0,0:00:12.49,0:00:14.89,Cap,,0,0,0,,{\k38}s-started {\k120}buying {\k82}bidets
+Dialogue: 0,0:00:15.99,0:00:16.51,Cap,,0,0,0,,{\k12}from {\k10}a {\k30}bidet
+Dialogue: 0,0:00:16.57,0:00:17.07,Cap,,0,0,0,,{\k50}company.
+Dialogue: 0,0:00:17.73,0:00:18.15,Cap,,0,0,0,,{\k10}And {\k16}I {\k16}was
+Dialogue: 0,0:00:18.29,0:00:18.46,Cap,,0,0,0,,{\k14}like- {\k3}...
+Dialogue: 0,0:00:18.51,0:00:19.95,Cap,,0,0,0,,{\k61}exposing {\k29}my {\k54}butt
+Dialogue: 0,0:00:19.96,0:00:20.71,Cap,,0,0,0,,{\k11}to {\k18}this {\k46}bidet,
+Dialogue: 0,0:00:21.33,0:00:21.69,Cap,,0,0,0,,{\k11}and {\k9}it {\k16}was
+Dialogue: 0,0:00:21.75,0:00:22.14,Cap,,0,0,0,,{\k39}washing- {\k1}...
+Dialogue: 0,0:00:22.17,0:00:22.83,Cap,,0,0,0,,{\k9}my {\k33}butt {\k24}very
+Dialogue: 0,0:00:22.87,0:00:23.27,Cap,,0,0,0,,{\k40}nicely.
+Dialogue: 0,0:00:23.67,0:00:24.77,Cap,,0,0,0,,{\k19}Then {\k91}suddenly,
+Dialogue: 0,0:00:24.81,0:00:25.28,Cap,,0,0,0,,{\k8}they {\k17}have {\k22}this
+Dialogue: 0,0:00:25.35,0:00:25.96,Cap,,0,0,0,,{\k23}new {\k27}version {\k11}of
+Dialogue: 0,0:00:25.99,0:00:26.37,Cap,,0,0,0,,{\k6}the {\k32}bidet,
+Dialogue: 0,0:00:26.39,0:00:27.46,Cap,,0,0,0,,{\k7}and {\k12}it {\k88}auto-updates
+Dialogue: 0,0:00:27.95,0:00:28.51,Cap,,0,0,0,,{\k10}to {\k30}where {\k16}it
+Dialogue: 0,0:00:28.55,0:00:29.50,Cap,,0,0,0,,{\k24}like {\k42}manually {\k29}comes
+Dialogue: 0,0:00:29.51,0:00:30.30,Cap,,0,0,0,,{\k10}and {\k69}touches,
+Dialogue: 0,0:00:30.33,0:00:30.89,Cap,,0,0,0,,{\k14}and {\k18}your {\k24}butt
+Dialogue: 0,0:00:30.93,0:00:31.59,Cap,,0,0,0,,{\k10}and {\k20}like {\k36}wipes
+Dialogue: 0,0:00:31.69,0:00:32.45,Cap,,0,0,0,,{\k6}it- {\k70}...
+Dialogue: 0,0:00:32.46,0:00:32.65,Cap,,0,0,0,,{\k1}and {\k1}like {\k19}licks
+Dialogue: 0,0:00:32.71,0:00:33.69,Cap,,0,0,0,,{\k6}it {\k15}up {\k77}nice
+Dialogue: 0,0:00:33.73,0:00:34.43,Cap,,0,0,0,,{\k7}and {\k63}clean.
+Dialogue: 0,0:00:35.47,0:00:35.88,Cap,,0,0,0,,{\k13}Like {\k18}that's {\k10}what
+Dialogue: 0,0:00:35.91,0:00:36.44,Cap,,0,0,0,,{\k6}the {\k30}AI {\k17}is,
+Dialogue: 0,0:00:36.49,0:00:36.59,Cap,,0,0,0,,{\k10}right?
+Dialogue: 0,0:00:36.61,0:00:37.17,Cap,,0,0,0,,{\k13}It's {\k11}like {\k32}way
+Dialogue: 0,0:00:37.21,0:00:37.51,Cap,,0,0,0,,{\k30}better,
+Dialogue: 0,0:00:37.93,0:00:38.57,Cap,,0,0,0,,{\k14}but {\k22}it's {\k28}like
+Dialogue: 0,0:00:38.73,0:00:39.49,Cap,,0,0,0,,{\k36}really {\k24}up {\k16}in
+Dialogue: 0,0:00:39.55,0:00:39.58,Cap,,0,0,0,,{\k3}there.
+Dialogue: 0,0:00:39.73,0:00:40.01,CapMid,,0,0,0,,{\k4}I {\k11}don't {\k13}know
+Dialogue: 0,0:00:40.05,0:00:40.45,CapMid,,0,0,0,,{\k16}why {\k14}that {\k10}was
+Dialogue: 0,0:00:40.49,0:00:40.95,CapMid,,0,0,0,,{\k2}the {\k34}analogy {\k10}I
+Dialogue: 0,0:00:40.99,0:00:41.37,CapMid,,0,0,0,,{\k10}came {\k14}up {\k14}with,
+Dialogue: 0,0:00:41.45,0:00:41.95,CapMid,,0,0,0,,{\k10}but {\k22}that's {\k18}kind
+Dialogue: 0,0:00:42.01,0:00:42.11,CapMid,,0,0,0,,{\k10}of,
+Dialogue: 0,0:00:42.33,0:00:43.01,CapMid,,0,0,0,,{\k26}that's {\k28}like {\k14}what
+Dialogue: 0,0:00:43.09,0:00:43.37,CapMid,,0,0,0,,{\k3}I {\k25}Yeah,
+Dialogue: 0,0:00:43.47,0:00:43.79,CapMid,,0,0,0,,{\k12}but {\k12}at {\k8}the
+Dialogue: 0,0:00:43.87,0:00:44.39,CapMid,,0,0,0,,{\k18}same {\k34}time,
+Dialogue: 0,0:00:45.05,0:00:45.33,CapMid,,0,0,0,,{\k7}if {\k7}you {\k14}look
+Dialogue: 0,0:00:45.35,0:00:45.63,CapMid,,0,0,0,,{\k4}at {\k8}it {\k16}from
+Dialogue: 0,0:00:45.65,0:00:46.13,CapMid,,0,0,0,,{\k14}their {\k34}point,
+Dialogue: 0,0:00:46.61,0:00:47.05,CapMid,,0,0,0,,{\k14}what {\k18}was {\k12}the
+Dialogue: 0,0:00:47.09,0:00:48.01,CapMid,,0,0,0,,{\k34}initial {\k44}tasker {\k14}you
+Dialogue: 0,0:00:48.05,0:00:48.35,CapMid,,0,0,0,,{\k30}wanted?
+Dialogue: 0,0:00:48.51,0:00:48.85,CapMid,,0,0,0,,{\k6}You {\k20}wanted {\k8}a
+Dialogue: 0,0:00:48.89,0:00:49.37,CapMid,,0,0,0,,{\k22}clean {\k26}bum,
+Dialogue: 0,0:00:49.69,0:00:49.85,CapMid,,0,0,0,,{\k16}right?
+Dialogue: 0,0:00:50.57,0:00:51.15,CapMid,,0,0,0,,{\k28}And {\k14}you {\k16}have
+Dialogue: 0,0:00:51.17,0:00:52.13,CapMid,,0,0,0,,{\k20}gotten {\k16}that {\k60}tenfold.

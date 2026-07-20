@@ -1,0 +1,76 @@
+[Script Info]
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,DejaVu Sans,62,&H0000E7FF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,5,2,2,60,60,430,1
+Style: CapMid,DejaVu Sans,62,&H0000E7FF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,5,2,5,60,60,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.15,0:00:00.29,Cap,,0,0,0,,{\k14}Okay.
+Dialogue: 0,0:00:00.35,0:00:01.38,Cap,,0,0,0,,{\k10}We're {\k24}playing {\k69}Roblox,
+Dialogue: 0,0:00:01.49,0:00:01.71,Cap,,0,0,0,,{\k22}right?
+Dialogue: 0,0:00:04.29,0:00:04.57,Cap,,0,0,0,,{\k28}So
+Dialogue: 0,0:00:05.69,0:00:06.45,Cap,,0,0,0,,{\k16}I {\k29}started {\k31}playing
+Dialogue: 0,0:00:06.49,0:00:07.19,Cap,,0,0,0,,{\k48}Roblox {\k14}when {\k8}I
+Dialogue: 0,0:00:07.23,0:00:08.19,Cap,,0,0,0,,{\k8}was {\k26}like {\k62}super-duper
+Dialogue: 0,0:00:08.29,0:00:08.63,Cap,,0,0,0,,{\k34}young,
+Dialogue: 0,0:00:09.03,0:00:09.23,Cap,,0,0,0,,{\k20}like-
+Dialogue: 0,0:00:10.26,0:00:10.26,Cap,,0,0,0,,{\k1}...
+Dialogue: 0,0:00:10.31,0:00:10.70,Cap,,0,0,0,,{\k9}this {\k12}was {\k18}like
+Dialogue: 0,0:00:10.75,0:00:11.99,Cap,,0,0,0,,{\k22}my {\k102}OG,
+Dialogue: 0,0:00:12.05,0:00:13.03,Cap,,0,0,0,,{\k18}like {\k80}MMO,
+Dialogue: 0,0:00:13.33,0:00:13.59,Cap,,0,0,0,,{\k3}you {\k23}know,
+Dialogue: 0,0:00:13.65,0:00:14.01,Cap,,0,0,0,,{\k14}like {\k14}that {\k8}I
+Dialogue: 0,0:00:14.03,0:00:14.81,Cap,,0,0,0,,{\k12}would {\k48}interact {\k18}with
+Dialogue: 0,0:00:14.89,0:00:16.87,Cap,,0,0,0,,{\k82}like {\k74}basically {\k42}random
+Dialogue: 0,0:00:16.89,0:00:18.67,Cap,,0,0,0,,{\k22}ass {\k33}people {\k123}online
+Dialogue: 0,0:00:18.75,0:00:19.19,Cap,,0,0,0,,{\k9}at {\k11}the {\k24}age
+Dialogue: 0,0:00:19.23,0:00:21.01,Cap,,0,0,0,,{\k8}of {\k142}like {\k28}10
+Dialogue: 0,0:00:21.03,0:00:21.73,Cap,,0,0,0,,{\k8}or {\k62}11,
+Dialogue: 0,0:00:21.83,0:00:21.98,Cap,,0,0,0,,{\k15}right?
+Dialogue: 0,0:00:21.99,0:00:22.43,Cap,,0,0,0,,{\k8}then {\k16}you're {\k20}like-
+Dialogue: 0,0:00:22.99,0:00:22.99,Cap,,0,0,0,,{\k1}...
+Dialogue: 0,0:00:23.01,0:00:24.61,Cap,,0,0,0,,{\k58}you're {\k34}on {\k68}Roblox
+Dialogue: 0,0:00:24.71,0:00:25.42,Cap,,0,0,0,,{\k26}like {\k35}talking {\k10}to
+Dialogue: 0,0:00:25.51,0:00:27.19,Cap,,0,0,0,,{\k102}like {\k46}probably {\k20}some
+Dialogue: 0,0:00:27.23,0:00:27.66,Cap,,0,0,0,,{\k18}guy- {\k25}...
+Dialogue: 0,0:00:27.66,0:00:27.74,Cap,,0,0,0,,{\k1}who's {\k8}like
+Dialogue: 0,0:00:28.59,0:00:29.31,Cap,,0,0,0,,{\k14}thir- {\k36}40 {\k22}years
+Dialogue: 0,0:00:29.35,0:00:29.57,Cap,,0,0,0,,{\k22}old,
+Dialogue: 0,0:00:29.81,0:00:30.43,Cap,,0,0,0,,{\k10}50 {\k20}years {\k32}old.
+Dialogue: 0,0:00:31.58,0:00:31.83,Cap,,0,0,0,,{\k1}And {\k11}then {\k14}he's
+Dialogue: 0,0:00:31.87,0:00:32.99,Cap,,0,0,0,,{\k24}like {\k54}convincing {\k34}you
+Dialogue: 0,0:00:33.03,0:00:33.42,Cap,,0,0,0,,{\k12}to {\k27}like,
+Dialogue: 0,0:00:33.69,0:00:33.85,Cap,,0,0,0,,{\k4}you {\k12}know,
+Dialogue: 0,0:00:33.97,0:00:34.81,Cap,,0,0,0,,{\k20}play {\k46}Roblox {\k18}with
+Dialogue: 0,0:00:34.89,0:00:35.19,Cap,,0,0,0,,{\k30}him.
+Dialogue: 0,0:00:35.89,0:00:36.25,Cap,,0,0,0,,{\k11}This {\k16}isn't {\k9}a
+Dialogue: 0,0:00:36.29,0:00:36.77,Cap,,0,0,0,,{\k48}confession.
+Dialogue: 0,0:00:36.83,0:00:37.02,Cap,,0,0,0,,{\k8}This {\k11}is
+Dialogue: 0,0:00:37.17,0:00:37.40,CapMid,,0,0,0,,{\k4}I {\k9}don't {\k10}know
+Dialogue: 0,0:00:37.41,0:00:38.05,CapMid,,0,0,0,,{\k1}what {\k9}to {\k54}say.
+Dialogue: 0,0:00:38.13,0:00:38.43,CapMid,,0,0,0,,{\k3}It {\k14}sound {\k13}like
+Dialogue: 0,0:00:38.45,0:00:39.19,CapMid,,0,0,0,,{\k4}a {\k70}confession.
+Dialogue: 0,0:00:39.59,0:00:39.62,Cap,,0,0,0,,{\k3}But,
+Dialogue: 0,0:00:39.62,0:00:39.97,Cap,,0,0,0,,{\k4}but {\k7}I {\k24}feel
+Dialogue: 0,0:00:40.01,0:00:40.17,Cap,,0,0,0,,{\k16}like
+Dialogue: 0,0:00:42.09,0:00:43.67,Cap,,0,0,0,,{\k74}nobody {\k68}who {\k16}has
+Dialogue: 0,0:00:43.71,0:00:44.57,Cap,,0,0,0,,{\k14}been {\k42}talking {\k30}about
+Dialogue: 0,0:00:44.59,0:00:45.67,Cap,,0,0,0,,{\k38}internet {\k58}safety {\k12}in
+Dialogue: 0,0:00:45.71,0:00:46.37,Cap,,0,0,0,,{\k5}the {\k61}past
+Dialogue: 0,0:00:47.23,0:00:47.99,Cap,,0,0,0,,{\k22}has {\k28}really {\k26}like
+Dialogue: 0,0:00:48.09,0:00:49.71,Cap,,0,0,0,,{\k50}been {\k58}someone {\k54}who
+Dialogue: 0,0:00:51.07,0:00:51.73,Cap,,0,0,0,,{\k12}has {\k24}kinda {\k30}lived
+Dialogue: 0,0:00:51.77,0:00:52.13,Cap,,0,0,0,,{\k6}it {\k30}out.
+Dialogue: 0,0:00:52.19,0:00:52.59,Cap,,0,0,0,,{\k12}Like {\k16}we're {\k12}the
+Dialogue: 0,0:00:52.63,0:00:53.63,Cap,,0,0,0,,{\k19}first {\k61}generation {\k20}where
+Dialogue: 0,0:00:53.67,0:00:54.45,Cap,,0,0,0,,{\k18}like {\k42}we {\k18}were
+Dialogue: 0,0:00:54.49,0:00:55.30,Cap,,0,0,0,,{\k22}born {\k12}and {\k47}raised
+Dialogue: 0,0:00:55.43,0:00:55.79,Cap,,0,0,0,,{\k12}on {\k24}like
+Dialogue: 0,0:00:57.37,0:00:57.75,Cap,,0,0,0,,{\k18}kind {\k8}of {\k12}an
+Dialogue: 0,0:00:57.81,0:00:58.63,Cap,,0,0,0,,{\k42}unsafe {\k40}internet,
+Dialogue: 0,0:00:58.81,0:00:59.21,Cap,,0,0,0,,{\k16}I'd {\k24}say.

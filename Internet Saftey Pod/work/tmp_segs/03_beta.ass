@@ -1,0 +1,95 @@
+[Script Info]
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,DejaVu Sans,62,&H0000E7FF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,5,2,2,60,60,430,1
+Style: CapMid,DejaVu Sans,62,&H0000E7FF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,5,2,5,60,60,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.15,0:00:00.27,Cap,,0,0,0,,{\k12}Like,
+Dialogue: 0,0:00:00.51,0:00:00.93,Cap,,0,0,0,,{\k14}so {\k28}yeah,
+Dialogue: 0,0:00:01.05,0:00:01.49,Cap,,0,0,0,,{\k26}people {\k18}who,
+Dialogue: 0,0:00:01.55,0:00:01.67,Cap,,0,0,0,,{\k12}like,
+Dialogue: 0,0:00:02.31,0:00:03.84,Cap,,0,0,0,,{\k32}didn't {\k74}experience {\k47}that,
+Dialogue: 0,0:00:03.84,0:00:04.42,Cap,,0,0,0,,{\k21}that {\k37}moment,
+Dialogue: 0,0:00:04.69,0:00:05.69,Cap,,0,0,0,,{\k12}that {\k34}cultural {\k54}shift-
+Dialogue: 0,0:00:06.71,0:00:06.71,Cap,,0,0,0,,{\k1}...
+Dialogue: 0,0:00:06.72,0:00:06.91,Cap,,0,0,0,,{\k1}moment {\k14}on {\k5}the
+Dialogue: 0,0:00:06.95,0:00:07.29,Cap,,0,0,0,,{\k34}internet.
+Dialogue: 0,0:00:08.15,0:00:08.37,Cap,,0,0,0,,{\k2}You {\k20}know,
+Dialogue: 0,0:00:08.45,0:00:08.55,Cap,,0,0,0,,{\k10}like,
+Dialogue: 0,0:00:08.61,0:00:09.36,Cap,,0,0,0,,{\k13}they {\k34}already {\k28}had,
+Dialogue: 0,0:00:09.39,0:00:09.57,Cap,,0,0,0,,{\k18}like,
+Dialogue: 0,0:00:09.61,0:00:10.38,Cap,,0,0,0,,{\k4}you {\k73}know,
+Dialogue: 0,0:00:10.41,0:00:10.79,Cap,,0,0,0,,{\k38}people,
+Dialogue: 0,0:00:10.83,0:00:12.09,Cap,,0,0,0,,{\k12}like {\k40}parents {\k74}with,
+Dialogue: 0,0:00:12.15,0:00:12.32,Cap,,0,0,0,,{\k3}you {\k14}know,
+Dialogue: 0,0:00:12.35,0:00:13.33,Cap,,0,0,0,,{\k22}more {\k10}s- {\k66}strict
+Dialogue: 0,0:00:13.35,0:00:14.93,Cap,,0,0,0,,{\k8}or {\k60}stringent {\k90}internet
+Dialogue: 0,0:00:15.13,0:00:15.87,Cap,,0,0,0,,{\k17}values- {\k57}...
+Dialogue: 0,0:00:15.93,0:00:16.09,Cap,,0,0,0,,{\k16}right?
+Dialogue: 0,0:00:18.09,0:00:18.47,Cap,,0,0,0,,{\k38}Um,
+Dialogue: 0,0:00:19.39,0:00:19.67,Cap,,0,0,0,,{\k9}and {\k19}they,
+Dialogue: 0,0:00:20.07,0:00:20.59,Cap,,0,0,0,,{\k8}it's {\k28}almost {\k16}like
+Dialogue: 0,0:00:20.67,0:00:21.02,Cap,,0,0,0,,{\k12}they're {\k23}like,
+Dialogue: 0,0:00:21.71,0:00:21.89,Cap,,0,0,0,,{\k4}you {\k14}know,
+Dialogue: 0,0:00:22.05,0:00:22.63,Cap,,0,0,0,,{\k58}behind.
+Dialogue: 0,0:00:22.75,0:00:23.15,Cap,,0,0,0,,{\k4}They {\k16}don't {\k20}have,
+Dialogue: 0,0:00:23.19,0:00:23.27,Cap,,0,0,0,,{\k8}like,
+Dialogue: 0,0:00:23.35,0:00:24.02,Cap,,0,0,0,,{\k6}the {\k36}latest {\k25}update.
+Dialogue: 0,0:00:24.17,0:00:24.27,CapMid,,0,0,0,,{\k10}Right?
+Dialogue: 0,0:00:24.45,0:00:24.58,CapMid,,0,0,0,,{\k13}They're,
+Dialogue: 0,0:00:24.63,0:00:24.73,CapMid,,0,0,0,,{\k10}like,
+Dialogue: 0,0:00:24.85,0:00:25.17,CapMid,,0,0,0,,{\k16}part {\k16}of,
+Dialogue: 0,0:00:25.23,0:00:25.39,CapMid,,0,0,0,,{\k16}like,
+Dialogue: 0,0:00:25.71,0:00:26.22,CapMid,,0,0,0,,{\k51}humanity,
+Dialogue: 0,0:00:26.29,0:00:26.47,CapMid,,0,0,0,,{\k18}like,
+Dialogue: 0,0:00:27.49,0:00:27.71,CapMid,,0,0,0,,{\k6}you {\k16}know,
+Dialogue: 0,0:00:28.27,0:00:29.41,CapMid,,0,0,0,,{\k76}0.01 {\k38}beta.
+Dialogue: 0,0:00:29.55,0:00:29.69,CapMid,,0,0,0,,{\k4}You {\k10}know,
+Dialogue: 0,0:00:29.75,0:00:30.11,CapMid,,0,0,0,,{\k10}they're {\k14}not {\k12}on
+Dialogue: 0,0:00:30.17,0:00:31.20,CapMid,,0,0,0,,{\k8}the {\k38}latest- {\k57}...
+Dialogue: 0,0:00:31.25,0:00:32.38,CapMid,,0,0,0,,{\k38}edition {\k14}of {\k61}humanity.
+Dialogue: 0,0:00:32.78,0:00:33.41,Cap,,0,0,0,,{\k31}And {\k22}Dom {\k10}was
+Dialogue: 0,0:00:33.44,0:00:33.51,Cap,,0,0,0,,{\k7}like,
+Dialogue: 0,0:00:33.80,0:00:34.02,Cap,,0,0,0,,{\k12}"What {\k5}are {\k5}you
+Dialogue: 0,0:00:34.04,0:00:34.72,Cap,,0,0,0,,{\k14}guys {\k26}talking {\k28}about?"
+Dialogue: 0,0:00:35.38,0:00:35.97,Cap,,0,0,0,,{\k59}Right?
+Dialogue: 0,0:00:35.97,0:00:37.06,Cap,,0,0,0,,{\k12}But {\k33}everyone {\k64}there,
+Dialogue: 0,0:00:37.27,0:00:37.60,Cap,,0,0,0,,{\k1}c- {\k33}like,
+Dialogue: 0,0:00:37.68,0:00:37.83,Cap,,0,0,0,,{\k15}even,
+Dialogue: 0,0:00:38.04,0:00:38.60,Cap,,0,0,0,,{\k14}even {\k27}people {\k15}that
+Dialogue: 0,0:00:38.62,0:00:39.10,Cap,,0,0,0,,{\k12}weren't {\k14}even {\k22}on
+Dialogue: 0,0:00:39.12,0:00:39.46,Cap,,0,0,0,,{\k18}my {\k16}team,
+Dialogue: 0,0:00:39.52,0:00:40.07,Cap,,0,0,0,,{\k11}like {\k24}other {\k20}people
+Dialogue: 0,0:00:40.10,0:00:40.53,Cap,,0,0,0,,{\k11}from {\k9}the {\k23}other
+Dialogue: 0,0:00:40.56,0:00:41.35,Cap,,0,0,0,,{\k14}team {\k10}were {\k55}like,
+Dialogue: 0,0:00:41.35,0:00:41.52,Cap,,0,0,0,,{\k17}"Oh,
+Dialogue: 0,0:00:41.54,0:00:41.62,Cap,,0,0,0,,{\k8}yeah,
+Dialogue: 0,0:00:41.76,0:00:42.10,Cap,,0,0,0,,{\k3}did {\k5}you {\k26}see?
+Dialogue: 0,0:00:42.14,0:00:42.64,Cap,,0,0,0,,{\k15}There's {\k6}this {\k29}guy,
+Dialogue: 0,0:00:42.68,0:00:43.02,Cap,,0,0,0,,{\k34}Carl,
+Dialogue: 0,0:00:43.04,0:00:43.40,Cap,,0,0,0,,{\k13}who's {\k16}going {\k7}to,
+Dialogue: 0,0:00:43.44,0:00:43.59,Cap,,0,0,0,,{\k15}like,
+Dialogue: 0,0:00:43.60,0:00:44.66,Cap,,0,0,0,,{\k26}PT {\k56}school {\k24}in
+Dialogue: 0,0:00:44.70,0:00:45.24,Cap,,0,0,0,,{\k54}Colorado,
+Dialogue: 0,0:00:46.08,0:00:46.91,Cap,,0,0,0,,{\k63}and {\k20}blah,
+Dialogue: 0,0:00:46.94,0:00:47.06,Cap,,0,0,0,,{\k12}blah,
+Dialogue: 0,0:00:47.07,0:00:47.07,Cap,,0,0,0,,{\k1}blah,
+Dialogue: 0,0:00:47.08,0:00:47.40,Cap,,0,0,0,,{\k10}he's {\k10}on {\k12}the
+Dialogue: 0,0:00:47.44,0:00:47.85,Cap,,0,0,0,,{\k20}show." {\k13}And {\k8}we're
+Dialogue: 0,0:00:47.88,0:00:47.97,Cap,,0,0,0,,{\k9}like,
+Dialogue: 0,0:00:48.18,0:00:49.05,Cap,,0,0,0,,{\k70}"Yeah!" {\k9}You {\k8}know,
+Dialogue: 0,0:00:49.14,0:00:50.82,Cap,,0,0,0,,{\k18}we {\k135}all {\k15}had
+Dialogue: 0,0:00:50.84,0:00:51.77,Cap,,0,0,0,,{\k18}this {\k75}mutual,
+Dialogue: 0,0:00:52.06,0:00:52.32,Cap,,0,0,0,,{\k1}I {\k10}don't {\k15}know
+Dialogue: 0,0:00:52.36,0:00:52.71,Cap,,0,0,0,,{\k7}how {\k15}to {\k13}say
+Dialogue: 0,0:00:52.72,0:00:52.80,Cap,,0,0,0,,{\k8}it,
+Dialogue: 0,0:00:52.82,0:00:53.01,Cap,,0,0,0,,{\k19}like,
+Dialogue: 0,0:00:54.32,0:00:54.74,Cap,,0,0,0,,{\k8}I {\k6}don't {\k28}know,
+Dialogue: 0,0:00:55.28,0:00:55.90,Cap,,0,0,0,,{\k30}moment {\k12}of {\k20}coming
+Dialogue: 0,0:00:55.94,0:00:56.50,Cap,,0,0,0,,{\k26}together {\k6}or {\k24}whatever.

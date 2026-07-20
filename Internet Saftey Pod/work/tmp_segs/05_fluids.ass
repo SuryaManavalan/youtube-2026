@@ -1,0 +1,85 @@
+[Script Info]
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,DejaVu Sans,62,&H0000E7FF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,5,2,2,60,60,430,1
+Style: CapMid,DejaVu Sans,62,&H0000E7FF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,5,2,5,60,60,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.15,0:00:00.29,Cap,,0,0,0,,{\k14}Right?
+Dialogue: 0,0:00:00.39,0:00:00.67,Cap,,0,0,0,,{\k8}And {\k20}then,
+Dialogue: 0,0:00:00.69,0:00:00.87,Cap,,0,0,0,,{\k18}like,
+Dialogue: 0,0:00:01.38,0:00:01.81,Cap,,0,0,0,,{\k11}the {\k12}th- {\k20}the
+Dialogue: 0,0:00:01.87,0:00:02.63,Cap,,0,0,0,,{\k26}problem {\k20}is {\k30}there's
+Dialogue: 0,0:00:02.67,0:00:02.93,Cap,,0,0,0,,{\k26}no,
+Dialogue: 0,0:00:02.95,0:00:03.07,Cap,,0,0,0,,{\k12}like,
+Dialogue: 0,0:00:03.23,0:00:04.33,Cap,,0,0,0,,{\k44}standards {\k14}and {\k52}norms
+Dialogue: 0,0:00:04.41,0:00:05.08,Cap,,0,0,0,,{\k26}yet {\k20}with {\k21}how
+Dialogue: 0,0:00:05.19,0:00:05.95,Cap,,0,0,0,,{\k34}people {\k34}interact {\k8}with
+Dialogue: 0,0:00:05.99,0:00:06.27,Cap,,0,0,0,,{\k4}the {\k24}AI.
+Dialogue: 0,0:00:06.33,0:00:06.39,Cap,,0,0,0,,{\k6}Like,
+Dialogue: 0,0:00:06.45,0:00:06.83,Cap,,0,0,0,,{\k12}there's {\k14}all {\k12}the
+Dialogue: 0,0:00:06.87,0:00:07.81,Cap,,0,0,0,,{\k20}AI {\k50}psychosis {\k24}stuff
+Dialogue: 0,0:00:07.83,0:00:08.27,Cap,,0,0,0,,{\k12}where {\k21}people {\k11}are
+Dialogue: 0,0:00:08.31,0:00:08.93,Cap,,0,0,0,,{\k22}falling {\k8}in {\k32}love-
+Dialogue: 0,0:00:09.71,0:00:09.71,Cap,,0,0,0,,{\k1}...
+Dialogue: 0,0:00:09.79,0:00:10.25,Cap,,0,0,0,,{\k46}and,
+Dialogue: 0,0:00:10.27,0:00:12.88,Cap,,0,0,0,,{\k154}and {\k28}forming {\k79}emotional
+Dialogue: 0,0:00:12.88,0:00:13.13,Cap,,0,0,0,,{\k25}attachments.
+Dialogue: 0,0:00:13.28,0:00:13.28,Cap,,0,0,0,,{\k1}...
+Dialogue: 0,0:00:13.32,0:00:14.08,Cap,,0,0,0,,{\k18}it's {\k26}so {\k32}easy.
+Dialogue: 0,0:00:14.24,0:00:14.70,Cap,,0,0,0,,{\k15}People {\k13}are {\k18}so
+Dialogue: 0,0:00:14.74,0:00:15.36,Cap,,0,0,0,,{\k31}messed {\k11}up {\k20}and
+Dialogue: 0,0:00:15.44,0:00:15.80,Cap,,0,0,0,,{\k36}so,
+Dialogue: 0,0:00:15.88,0:00:16.32,Cap,,0,0,0,,{\k15}have {\k29}so,
+Dialogue: 0,0:00:16.36,0:00:16.80,Cap,,0,0,0,,{\k20}such {\k24}low,
+Dialogue: 0,0:00:16.84,0:00:17.04,Cap,,0,0,0,,{\k20}like,
+Dialogue: 0,0:00:17.10,0:00:17.56,Cap,,0,0,0,,{\k46}EQ,
+Dialogue: 0,0:00:17.86,0:00:18.05,Cap,,0,0,0,,{\k19}right?
+Dialogue: 0,0:00:18.50,0:00:19.46,Cap,,0,0,0,,{\k6}They {\k19}don't {\k71}understand-
+Dialogue: 0,0:00:20.04,0:00:20.04,Cap,,0,0,0,,{\k1}...
+Dialogue: 0,0:00:20.27,0:00:20.27,Cap,,0,0,0,,{\k1}that,
+Dialogue: 0,0:00:20.36,0:00:20.85,Cap,,0,0,0,,{\k49}like,
+Dialogue: 0,0:00:20.86,0:00:21.34,Cap,,0,0,0,,{\k24}even {\k13}when {\k11}you're
+Dialogue: 0,0:00:21.38,0:00:22.13,Cap,,0,0,0,,{\k33}talking {\k7}to {\k35}another
+Dialogue: 0,0:00:22.16,0:00:22.43,Cap,,0,0,0,,{\k27}human,
+Dialogue: 0,0:00:22.52,0:00:22.71,Cap,,0,0,0,,{\k19}like,
+Dialogue: 0,0:00:22.80,0:00:24.43,Cap,,0,0,0,,{\k19}what {\k102}is {\k42}normal,
+Dialogue: 0,0:00:25.06,0:00:25.12,Cap,,0,0,0,,{\k6}right?
+Dialogue: 0,0:00:25.18,0:00:25.52,Cap,,0,0,0,,{\k14}Like {\k20}how,
+Dialogue: 0,0:00:25.67,0:00:26.42,Cap,,0,0,0,,{\k12}like {\k53}what's {\k10}a
+Dialogue: 0,0:00:26.46,0:00:27.16,Cap,,0,0,0,,{\k29}normal {\k29}level {\k12}of
+Dialogue: 0,0:00:27.20,0:00:28.64,Cap,,0,0,0,,{\k58}emotion {\k26}to {\k60}attach?
+Dialogue: 0,0:00:28.78,0:00:28.85,Cap,,0,0,0,,{\k7}Like,
+Dialogue: 0,0:00:28.92,0:00:29.66,Cap,,0,0,0,,{\k18}people {\k16}are {\k40}slinging
+Dialogue: 0,0:00:29.72,0:00:30.63,Cap,,0,0,0,,{\k22}around {\k48}emotion {\k21}like,
+Dialogue: 0,0:00:30.88,0:00:31.96,Cap,,0,0,0,,{\k22}like {\k34}bodily {\k52}fluids,
+Dialogue: 0,0:00:32.16,0:00:32.56,Cap,,0,0,0,,{\k40}essentially,
+Dialogue: 0,0:00:32.64,0:00:32.80,Cap,,0,0,0,,{\k16}right?
+Dialogue: 0,0:00:32.84,0:00:32.98,Cap,,0,0,0,,{\k14}Like-
+Dialogue: 0,0:00:33.38,0:00:33.87,CapMid,,0,0,0,,{\k14}And {\k19}it {\k16}can
+Dialogue: 0,0:00:34.06,0:00:34.09,CapMid,,0,0,0,,{\k3}be {\k1}anyone-
+Dialogue: 0,0:00:35.06,0:00:35.48,CapMid,,0,0,0,,{\k7}It {\k13}can {\k22}be
+Dialogue: 0,0:00:35.56,0:00:37.04,CapMid,,0,0,0,,{\k74}anyone {\k26}and {\k48}anything
+Dialogue: 0,0:00:37.10,0:00:37.63,CapMid,,0,0,0,,{\k12}you {\k26}want {\k15}it
+Dialogue: 0,0:00:37.66,0:00:38.00,CapMid,,0,0,0,,{\k8}to {\k26}be.
+Dialogue: 0,0:00:38.56,0:00:38.72,CapMid,,0,0,0,,{\k16}Right?
+Dialogue: 0,0:00:38.82,0:00:39.36,CapMid,,0,0,0,,{\k14}Like {\k8}you {\k32}can-
+Dialogue: 0,0:00:39.72,0:00:40.32,CapMid,,0,0,0,,{\k4}You {\k16}can {\k40}sling
+Dialogue: 0,0:00:40.38,0:00:41.64,CapMid,,0,0,0,,{\k36}whatever {\k49}emotional {\k41}fluid
+Dialogue: 0,0:00:41.72,0:00:42.22,CapMid,,0,0,0,,{\k10}you {\k24}want {\k16}at
+Dialogue: 0,0:00:42.28,0:00:42.40,CapMid,,0,0,0,,{\k12}it,
+Dialogue: 0,0:00:42.98,0:00:43.48,CapMid,,0,0,0,,{\k10}and {\k18}it {\k22}will
+Dialogue: 0,0:00:43.50,0:00:43.58,CapMid,,0,0,0,,{\k8}respond.
+Dialogue: 0,0:00:43.98,0:00:44.40,CapMid,,0,0,0,,{\k12}In {\k10}the {\k20}most
+Dialogue: 0,0:00:44.44,0:00:45.44,CapMid,,0,0,0,,{\k48}appropriate {\k30}way {\k22}for
+Dialogue: 0,0:00:45.52,0:00:45.74,CapMid,,0,0,0,,{\k22}you.
+Dialogue: 0,0:00:45.84,0:00:45.94,CapMid,,0,0,0,,{\k10}That,
+Dialogue: 0,0:00:46.00,0:00:46.40,CapMid,,0,0,0,,{\k6}the {\k18}way {\k16}you
+Dialogue: 0,0:00:46.46,0:00:46.88,CapMid,,0,0,0,,{\k16}want {\k14}it {\k12}to
+Dialogue: 0,0:00:46.90,0:00:47.48,CapMid,,0,0,0,,{\k36}respond {\k10}to {\k12}you,
+Dialogue: 0,0:00:47.62,0:00:47.86,CapMid,,0,0,0,,{\k4}you {\k20}know?

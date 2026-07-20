@@ -4,7 +4,7 @@ description: >-
   Turn a raw OBS screen recording of a 2-person Discord podcast call into
   vertical 1080x1920 YouTube Shorts (~8 clips, <60s each) with automatic
   camera work (full-screen active speaker, stacked reactions), diarized
-  word-accurate cuts, and audio equalization. Use whenever a folder in this
+  word-accurate cuts, burned-in karaoke captions, and audio equalization. Use whenever a folder in this
   repo contains a raw Discord-call recording and the user wants shorts/clips
   cut from it. Triggers: "create clips", "make shorts from this recording",
   "cut up the podcast", "new podcast episode", a new folder with a RAW
@@ -42,15 +42,16 @@ the background.
 | 2 | `transcribe` | ElevenLabs Scribe, diarized, word timestamps → `work/transcript_turns.txt` | API key (see below) |
 | 3 | `analyze` | auto-detects the two camera tiles from Discord's green active-speaker border, maps `speaker_0/1` → tiles, measures per-speaker loudness for mic equalization | steps 1–2 |
 | 4 | *(you)* write `<episode-dir>/clips.json` | **the editorial step — see below** | step 3 |
-| 5 | `edl` then `render` | snaps cuts to word boundaries (fix any printed PROBLEMS, rerun), renders the Shorts | step 4 |
+| 5 | `edl` then `render` | snaps cuts to word boundaries (fix any printed PROBLEMS, rerun), renders the Shorts with burned-in word-timed karaoke captions (white → yellow fill; lower third on solo shots, at the cam seam on stacked so no face is covered) | step 4 |
 
 API key: `$ELEVENLABS_API_KEY` or `~/.elevenlabs_key`. If neither exists, ask
 the user for the key, save it to `~/.elevenlabs_key` (chmod 600).
 
 Sanity checks worth doing: after `analyze`, confirm the printed speaker-map
 confidence is high (it warns below 80%); after `render`, extract 2–3 frames
-from one output with ffmpeg and look at them (tile framing, no green border),
-and confirm durations with ffprobe.
+from one output with ffmpeg and look at them (tile framing, no green border,
+captions readable and not covering a face), and confirm durations with
+ffprobe.
 
 ## Step 4: the editorial pass (the part that needs judgment)
 
